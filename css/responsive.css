@@ -1,0 +1,136 @@
+@media (max-width: 1024px) {
+  .timeline-stage,
+  .person-hero,
+  .sim-layout {
+    grid-template-columns: 1fr;
+  }
+
+
+  .future-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .stat-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .timeline-rail {
+    max-height: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: calc(var(--nav-height) + 1.5rem) 1.25rem 1.5rem;
+  }
+
+  .hero__shell {
+    width: 100%;
+    gap: 1.5rem;
+  }
+
+  .brand-mark {
+    letter-spacing: 0.14em;
+  }
+
+  .nav__links {
+    display: none;
+  }
+
+  .menu-btn {
+    display: grid;
+  }
+
+  .turning__choices,
+  .person-dual,
+  .compare,
+  .sources-grid,
+  .pivot-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .compare__side--history {
+    border-right: none;
+    border-bottom: 1px solid var(--hairline);
+  }
+
+  .intro-timeline__track {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+    padding-left: 1.25rem;
+    margin: 2rem 0;
+  }
+
+  .intro-timeline__track::before {
+    left: 0.2rem;
+    right: auto;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    height: auto;
+  }
+
+  .intro-year {
+    text-align: left;
+    padding-left: 1rem;
+  }
+
+  .intro-year::before {
+    left: -1.05rem;
+    top: 0.35rem;
+    transform: none;
+  }
+
+  .intro-year.is-pivot::before {
+    top: 0.25rem;
+    left: -1.2rem;
+  }
+
+
+  .timeline-controls {
+    position: static;
+    background: none;
+  }
+
+  .future-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sources-legend,
+  [data-sources-legend] {
+    grid-template-columns: 1fr !important;
+  }
+
+  .logo {
+    font-size: 0.82rem;
+    max-width: 12rem;
+    white-space: normal;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 480px) {
+  .container,
+  .container--wide {
+    width: min(100% - 1.5rem, var(--max-width));
+  }
+
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hero__actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .stat-row {
+    grid-template-columns: 1fr;
+  }
+
+  .turning-path {
+    min-height: 0;
+  }
+}

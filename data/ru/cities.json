@@ -1,0 +1,665 @@
+{
+  "cities": [
+    {
+      "id": "minsk",
+      "name": "Минск",
+      "x": 320,
+      "y": 290,
+      "layers": [
+        "cities",
+        "industry",
+        "education",
+        "infra",
+        "science",
+        "medicine"
+      ],
+      "timeline": {
+        "1941": {
+          "historical": "Столица в зоне внезапного удара. Эвакуация, бои, начало оккупации.",
+          "alternative": "Гипотеза: Минск продолжает жить как образовательный и промышленный центр без фронтовой катастрофы.",
+          "historicalSource": "USHMM Encyclopedia — Minsk; Britannica, Operation Barbarossa; belarus.by",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "FACT",
+          "alternativeStatus": "HYPOTHESIS"
+        },
+        "1945": {
+          "historical": "Город после освобождения: руины и начало восстановления.",
+          "alternative": "Гипотеза: непрерывный рост без послевоенного нуля.",
+          "historicalSource": "Archives of Belarus — Aftermath of the War; Exeler (2022)",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "FACT",
+          "alternativeStatus": "HYPOTHESIS"
+        },
+        "1960": {
+          "historical": "Новый индустриальный и административный облик после восстановления.",
+          "alternative": "Гипотеза: плотный университетский и исследовательский кластер на сохранённой городской ткани.",
+          "historicalSource": "Exeler (2022); History of BSU; НАН Беларуси — Our history",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "ANALYSIS",
+          "alternativeStatus": "HYPOTHESIS"
+        },
+        "1980": {
+          "historical": "Крупный промышленный и административный центр.",
+          "alternative": "Гипотеза: город с более сохранённым историческим слоем и ранней научной специализацией.",
+          "historicalSource": "Exeler (2022); послевоенная индустриализация БССР",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "ANALYSIS",
+          "alternativeStatus": "HYPOTHESIS"
+        },
+        "2026": {
+          "historical": "Современная столица Беларуси.",
+          "alternative": "Гипотеза: Минск с иным балансом памяти, науки и городского наследия.",
+          "historicalSource": "Belstat Demographic Yearbook (2019); современный контекст",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "ANALYSIS",
+          "alternativeStatus": "HYPOTHESIS"
+        }
+      },
+      "skyline": {
+        "1960": [
+          40,
+          55,
+          35,
+          70,
+          45,
+          60,
+          30,
+          50
+        ],
+        "1980": [
+          55,
+          75,
+          48,
+          90,
+          60,
+          80,
+          42,
+          70
+        ],
+        "2000": [
+          70,
+          95,
+          65,
+          110,
+          80,
+          100,
+          58,
+          88
+        ],
+        "2026": [
+          85,
+          120,
+          78,
+          140,
+          100,
+          125,
+          70,
+          110
+        ]
+      }
+    },
+    {
+      "id": "brest",
+      "name": "Брест",
+      "x": 95,
+      "y": 340,
+      "layers": [
+        "cities",
+        "infra",
+        "industry",
+        "medicine"
+      ],
+      "timeline": {
+        "1941": {
+          "historical": "Брестская крепость — символ первых дней Великой Отечественной войны.",
+          "alternative": "Гипотеза: пограничный город сохраняет мирную логистику и обычную жизнь.",
+          "historicalSource": "Мемориал «Брестская крепость-герой»; Britannica, Operation Barbarossa",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "FACT",
+          "alternativeStatus": "HYPOTHESIS"
+        },
+        "1945": {
+          "historical": "Город после войны восстанавливает транспортную роль.",
+          "alternative": "Гипотеза: культурный и транспортный центр без фронтовой паузы.",
+          "historicalSource": "Мемориал «Брестская крепость-герой»; Archives of Belarus; Exeler (2022)",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "FACT",
+          "alternativeStatus": "HYPOTHESIS"
+        },
+        "1960": {
+          "historical": "Восстановление городской и транспортной инфраструктуры.",
+          "alternative": "Гипотеза: развитие образования и приграничного обмена знаниями.",
+          "historicalSource": "Exeler (2022); контекст послевоенного восстановления",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "ANALYSIS",
+          "alternativeStatus": "HYPOTHESIS"
+        },
+        "1980": {
+          "historical": "Важный транспортный узел Беларуси.",
+          "alternative": "Гипотеза: город-связка с устойчивой инфраструктурой и сохранённой памятью места.",
+          "historicalSource": "Exeler (2022); послевоенная индустриализация БССР",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "ANALYSIS",
+          "alternativeStatus": "HYPOTHESIS"
+        },
+        "2026": {
+          "historical": "Современный Брест.",
+          "alternative": "Гипотеза: Брест как непрерывный культурный коридор.",
+          "historicalSource": "Belstat Demographic Yearbook (2019); современный контекст",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "ANALYSIS",
+          "alternativeStatus": "HYPOTHESIS"
+        }
+      },
+      "skyline": {
+        "1960": [
+          30,
+          45,
+          28,
+          50,
+          35,
+          42
+        ],
+        "1980": [
+          40,
+          60,
+          38,
+          70,
+          48,
+          55
+        ],
+        "2000": [
+          55,
+          75,
+          50,
+          85,
+          62,
+          70
+        ],
+        "2026": [
+          68,
+          95,
+          64,
+          105,
+          78,
+          88
+        ]
+      }
+    },
+    {
+      "id": "grodno",
+      "name": "Гродно",
+      "x": 120,
+      "y": 230,
+      "layers": [
+        "cities",
+        "education",
+        "culture",
+        "nature",
+        "medicine"
+      ],
+      "timeline": {
+        "1941": {
+          "historical": "Город входит в полосу оккупации и военных испытаний.",
+          "alternative": "Гипотеза: образовательные и культурные институты продолжают работу.",
+          "historicalSource": "Archives of Belarus; Britannica, Operation Barbarossa; belarus.by",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "FACT",
+          "alternativeStatus": "HYPOTHESIS"
+        },
+        "1945": {
+          "historical": "Послевоенное восстановление наследия и городской жизни.",
+          "alternative": "Гипотеза: архитектурное наследие сохраняется без военного разрыва.",
+          "historicalSource": "Archives of Belarus — Aftermath of the War; Exeler (2022)",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "FACT",
+          "alternativeStatus": "HYPOTHESIS"
+        },
+        "1960": {
+          "historical": "Новая городская жизнь после разрушений.",
+          "alternative": "Гипотеза: Гродно как центр гуманитарного образования и охраны наследия.",
+          "historicalSource": "Exeler (2022); History of BSU; НАН Беларуси — Our history",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "ANALYSIS",
+          "alternativeStatus": "HYPOTHESIS"
+        },
+        "1980": {
+          "historical": "Крупный областной центр.",
+          "alternative": "Гипотеза: город с особенно плотным культурным слоем.",
+          "historicalSource": "Exeler (2022); послевоенная индустриализация БССР",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "ANALYSIS",
+          "alternativeStatus": "HYPOTHESIS"
+        },
+        "2026": {
+          "historical": "Современный Гродно.",
+          "alternative": "Гипотеза: Гродно с непрерывной исторической тканью.",
+          "historicalSource": "Belstat Demographic Yearbook (2019); современный контекст",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "ANALYSIS",
+          "alternativeStatus": "HYPOTHESIS"
+        }
+      },
+      "skyline": {
+        "1960": [
+          35,
+          48,
+          42,
+          55,
+          38,
+          60,
+          32
+        ],
+        "1980": [
+          48,
+          65,
+          55,
+          75,
+          50,
+          80,
+          45
+        ],
+        "2000": [
+          60,
+          82,
+          70,
+          95,
+          65,
+          100,
+          58
+        ],
+        "2026": [
+          75,
+          100,
+          88,
+          115,
+          80,
+          120,
+          70
+        ]
+      }
+    },
+    {
+      "id": "vitebsk",
+      "name": "Витебск",
+      "x": 420,
+      "y": 140,
+      "layers": [
+        "cities",
+        "education",
+        "culture",
+        "industry"
+      ],
+      "timeline": {
+        "1941": {
+          "historical": "Тяжёлые бои и оккупация. Культурная жизнь обрывается.",
+          "alternative": "Гипотеза: художественные школы и мастерские продолжают работать.",
+          "historicalSource": "Archives of Belarus; Britannica, Operation Barbarossa; belarus.by",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "FACT",
+          "alternativeStatus": "HYPOTHESIS"
+        },
+        "1945": {
+          "historical": "Город среди руин. Начало восстановления.",
+          "alternative": "Гипотеза: непрерывная культурная традиция без фронтовой паузы.",
+          "historicalSource": "Archives of Belarus — Aftermath of the War; Exeler (2022)",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "FACT",
+          "alternativeStatus": "HYPOTHESIS"
+        },
+        "1960": {
+          "historical": "Восстановление и новая индустриализация.",
+          "alternative": "Гипотеза: Витебск как устойчивый центр искусства и образования.",
+          "historicalSource": "Exeler (2022); History of BSU; НАН Беларуси — Our history",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "ANALYSIS",
+          "alternativeStatus": "HYPOTHESIS"
+        },
+        "1980": {
+          "historical": "Областной центр с промышленностью и культурой.",
+          "alternative": "Гипотеза: город, где культурный капитал накапливался без разрывов.",
+          "historicalSource": "Exeler (2022); послевоенная индустриализация БССР",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "ANALYSIS",
+          "alternativeStatus": "HYPOTHESIS"
+        },
+        "2026": {
+          "historical": "Современный Витебск.",
+          "alternative": "Гипотеза: Витебск — ещё более яркий культурный полюс Беларуси.",
+          "historicalSource": "Belstat Demographic Yearbook (2019); современный контекст",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "ANALYSIS",
+          "alternativeStatus": "HYPOTHESIS"
+        }
+      },
+      "skyline": {
+        "1960": [
+          32,
+          50,
+          40,
+          58,
+          45,
+          36
+        ],
+        "1980": [
+          45,
+          68,
+          55,
+          78,
+          60,
+          50
+        ],
+        "2000": [
+          58,
+          85,
+          70,
+          95,
+          75,
+          65
+        ],
+        "2026": [
+          72,
+          105,
+          88,
+          118,
+          92,
+          80
+        ]
+      }
+    },
+    {
+      "id": "gomel",
+      "name": "Гомель",
+      "x": 430,
+      "y": 390,
+      "layers": [
+        "cities",
+        "industry",
+        "infra",
+        "science"
+      ],
+      "timeline": {
+        "1941": {
+          "historical": "Промышленный город в зоне войны и оккупации.",
+          "alternative": "Гипотеза: машиностроение и транспорт развиваются без срыва.",
+          "historicalSource": "Archives of Belarus; Britannica, Operation Barbarossa; belarus.by",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "FACT",
+          "alternativeStatus": "HYPOTHESIS"
+        },
+        "1945": {
+          "historical": "Разрушения и начало восстановления заводов.",
+          "alternative": "Гипотеза: юго-восточный индустриальный полюс без послевоенного нуля.",
+          "historicalSource": "Archives of Belarus — Aftermath of the War; Exeler (2022)",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "FACT",
+          "alternativeStatus": "HYPOTHESIS"
+        },
+        "1960": {
+          "historical": "Восстановление заводов и городской инфраструктуры.",
+          "alternative": "Гипотеза: ранний инженерный кластер и технические училища.",
+          "historicalSource": "Exeler (2022); History of BSU; НАН Беларуси — Our history",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "ANALYSIS",
+          "alternativeStatus": "HYPOTHESIS"
+        },
+        "1980": {
+          "historical": "Крупный промышленный центр.",
+          "alternative": "Гипотеза: Гомель как устойчивый узел инженерии и логистики.",
+          "historicalSource": "Exeler (2022); послевоенная индустриализация БССР",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "ANALYSIS",
+          "alternativeStatus": "HYPOTHESIS"
+        },
+        "2026": {
+          "historical": "Современный Гомель.",
+          "alternative": "Гипотеза: Гомель с более ранней технологической специализацией.",
+          "historicalSource": "Belstat Demographic Yearbook (2019); современный контекст",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "ANALYSIS",
+          "alternativeStatus": "HYPOTHESIS"
+        }
+      },
+      "skyline": {
+        "1960": [
+          38,
+          52,
+          44,
+          66,
+          40
+        ],
+        "1980": [
+          52,
+          72,
+          60,
+          88,
+          55
+        ],
+        "2000": [
+          68,
+          90,
+          75,
+          108,
+          70
+        ],
+        "2026": [
+          82,
+          112,
+          95,
+          130,
+          88
+        ]
+      }
+    },
+    {
+      "id": "mogilev",
+      "name": "Могилёв",
+      "x": 400,
+      "y": 280,
+      "layers": [
+        "cities",
+        "industry",
+        "education",
+        "medicine"
+      ],
+      "timeline": {
+        "1941": {
+          "historical": "Городской уклад ломается войной и оккупацией.",
+          "alternative": "Гипотеза: образование и промышленность растут стабильно.",
+          "historicalSource": "Archives of Belarus; Britannica, Operation Barbarossa; belarus.by",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "FACT",
+          "alternativeStatus": "HYPOTHESIS"
+        },
+        "1945": {
+          "historical": "Послевоенные испытания и восстановление.",
+          "alternative": "Гипотеза: непрерывное развитие городских институтов.",
+          "historicalSource": "Archives of Belarus — Aftermath of the War; Exeler (2022)",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "FACT",
+          "alternativeStatus": "HYPOTHESIS"
+        },
+        "1960": {
+          "historical": "Восстановление и индустриальный рост.",
+          "alternative": "Гипотеза: сильная сеть училищ и медицинских учреждений.",
+          "historicalSource": "Exeler (2022); History of BSU; НАН Беларуси — Our history",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "ANALYSIS",
+          "alternativeStatus": "HYPOTHESIS"
+        },
+        "1980": {
+          "historical": "Областной промышленный центр.",
+          "alternative": "Гипотеза: Могилёв с более плотной образовательной инфраструктурой.",
+          "historicalSource": "Exeler (2022); послевоенная индустриализация БССР",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "ANALYSIS",
+          "alternativeStatus": "HYPOTHESIS"
+        },
+        "2026": {
+          "historical": "Современный Могилёв.",
+          "alternative": "Гипотеза: Могилёв как центр прикладных наук.",
+          "historicalSource": "Belstat Demographic Yearbook (2019); современный контекст",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "ANALYSIS",
+          "alternativeStatus": "HYPOTHESIS"
+        }
+      },
+      "skyline": {
+        "1960": [
+          34,
+          48,
+          40,
+          56,
+          42
+        ],
+        "1980": [
+          48,
+          66,
+          55,
+          74,
+          58
+        ],
+        "2000": [
+          62,
+          84,
+          70,
+          92,
+          72
+        ],
+        "2026": [
+          78,
+          104,
+          88,
+          115,
+          90
+        ]
+      }
+    },
+    {
+      "id": "pinsk",
+      "name": "Пинск",
+      "x": 180,
+      "y": 380,
+      "layers": [
+        "cities",
+        "nature",
+        "education",
+        "culture"
+      ],
+      "timeline": {
+        "1941": {
+          "historical": "Полесье переживает оккупацию и военные испытания.",
+          "alternative": "Гипотеза: речной город сохраняет школы и ремёсла.",
+          "historicalSource": "Archives of Belarus; Britannica, Operation Barbarossa; belarus.by",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "FACT",
+          "alternativeStatus": "HYPOTHESIS"
+        },
+        "1945": {
+          "historical": "Восстановление жизни после войны.",
+          "alternative": "Гипотеза: Пинск развивает культуру и бережное отношение к природе.",
+          "historicalSource": "Archives of Belarus — Aftermath of the War; Exeler (2022)",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "FACT",
+          "alternativeStatus": "HYPOTHESIS"
+        },
+        "1960": {
+          "historical": "Новая городская жизнь после разрушений.",
+          "alternative": "Гипотеза: центр полесской культуры и экологического знания.",
+          "historicalSource": "Exeler (2022); History of BSU; НАН Беларуси — Our history",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "ANALYSIS",
+          "alternativeStatus": "HYPOTHESIS"
+        },
+        "1980": {
+          "historical": "Региональный центр Полесья.",
+          "alternative": "Гипотеза: город у воды с сильной образовательной и природной идентичностью.",
+          "historicalSource": "Exeler (2022); послевоенная индустриализация БССР",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "ANALYSIS",
+          "alternativeStatus": "HYPOTHESIS"
+        },
+        "2026": {
+          "historical": "Современный Пинск.",
+          "alternative": "Гипотеза: Пинск как ворота в природное наследие Беларуси.",
+          "historicalSource": "Belstat Demographic Yearbook (2019); современный контекст",
+          "alternativeSource": "Альтернативный сценарий проекта (гипотеза)",
+          "historicalStatus": "ANALYSIS",
+          "alternativeStatus": "HYPOTHESIS"
+        }
+      },
+      "skyline": {
+        "1960": [
+          28,
+          40,
+          32,
+          45,
+          30
+        ],
+        "1980": [
+          38,
+          55,
+          42,
+          60,
+          40
+        ],
+        "2000": [
+          50,
+          70,
+          55,
+          75,
+          52
+        ],
+        "2026": [
+          62,
+          88,
+          70,
+          95,
+          65
+        ]
+      }
+    }
+  ],
+  "layers": [
+    {
+      "id": "industry",
+      "label": "Промышленность",
+      "icon": "🏭"
+    },
+    {
+      "id": "education",
+      "label": "Образование",
+      "icon": "🎓"
+    },
+    {
+      "id": "medicine",
+      "label": "Медицина",
+      "icon": "🏥"
+    },
+    {
+      "id": "infra",
+      "label": "Инфраструктура",
+      "icon": "🚆"
+    },
+    {
+      "id": "cities",
+      "label": "Города",
+      "icon": "🏙"
+    },
+    {
+      "id": "nature",
+      "label": "Природа",
+      "icon": "🌳"
+    },
+    {
+      "id": "science",
+      "label": "Научные центры",
+      "icon": "🔬"
+    },
+    {
+      "id": "culture",
+      "label": "Культура",
+      "icon": "🎭"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+:root {
+  /* Editorial archive — soft dusk ink, never pure black/white */
+  --bg-darker: #14161a;
+  --bg-dark: #17191e;
+  --bg-light: #eceae4;
+  --surface: #f7f5f0;
+  --surface-dark: #22262d;
+  --surface-elevated: #2b3038;
+
+  --text-primary: #e8e6e1;
+  --text-dark: #1c1a17;
+  --text-muted: #7d7972;
+  --text-muted-light: #b5b0a8;
+  --text-body: #aea9a1;
+
+  /* Desaturated semantic hues — easy on dark canvas */
+  --history: #a86b64;
+  --history-soft: rgba(168, 107, 100, 0.12);
+  --alternative: #6a8f78;
+  --alternative-soft: rgba(106, 143, 120, 0.12);
+
+  --accent: #c4a574;
+  --accent-soft: rgba(196, 165, 116, 0.12);
+  --accent-strong: #d4b88a;
+
+  --fact: #7e96b5;
+  --analysis: #b59a5a;
+  --hypothesis: #7a9a92;
+
+  --hairline: rgba(232, 230, 225, 0.08);
+  --hairline-strong: rgba(232, 230, 225, 0.16);
+
+  --font-display: "Literata", "Times New Roman", serif;
+  --font-serif: "Literata", "Times New Roman", serif;
+  --font-sans: "Onest", system-ui, sans-serif;
+
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 4.5rem;
+  --space-2xl: 7rem;
+
+  --nav-height: 4rem;
+  --radius: 4px;
+  --radius-sm: 4px;
+  --radius-pill: 4px;
+  --max-width: 1080px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --transition: 0.3s var(--ease);
+
+  --grain-opacity: 0.028;
+}

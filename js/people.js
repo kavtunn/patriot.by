@@ -44,12 +44,21 @@ async function initPeoplePage() {
       .join("");
   }
 
-  function renderPerson() {
-    const person = data.people.find((p) => p.id === activeId);
-    if (!person) return;
+  function portraitBlock(person) {
+    if (person.portraitSrc) {
+      return `
+        <figure class="person-portrait person-portrait--photo">
+          <img class="person-portrait__img" src="${person.portraitSrc}" alt="${person.name}" loading="lazy">
+          <figcaption class="person-portrait__caption">
+            <p class="eyebrow">${person.portraitLabel}</p>
+            ${person.portraitCredit ? `<p class="person-portrait__credit">${person.portraitCredit}</p>` : ""}
+            <p class="person-portrait__note">${person.note}</p>
+          </figcaption>
+        </figure>
+      `;
+    }
 
-    root.innerHTML = `
-      <div class="person-hero reveal is-visible">
+    return `
         <div class="person-portrait">
           <div class="person-portrait__silhouette" aria-hidden="true"></div>
           <div>
@@ -57,6 +66,16 @@ async function initPeoplePage() {
             <p style="margin-top:0.5rem;font-size:0.85rem;color:var(--text-muted);">${person.note}</p>
           </div>
         </div>
+      `;
+  }
+
+  function renderPerson() {
+    const person = data.people.find((p) => p.id === activeId);
+    if (!person) return;
+
+    root.innerHTML = `
+      <div class="person-hero reveal is-visible">
+        ${portraitBlock(person)}
         <div>
           <p class="eyebrow">${I18N.t("people.one")}</p>
           <h1 class="display display--lg" style="margin:0.5rem 0 1rem;">${person.name}</h1>

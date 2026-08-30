@@ -649,6 +649,42 @@
   border-radius: 50% 50% 0 0 / 40% 40% 0 0;
 }
 
+.person-portrait--photo {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  place-items: stretch;
+}
+
+.person-portrait__img {
+  display: block;
+  width: 100%;
+  flex: 1 1 auto;
+  min-height: 12rem;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.person-portrait__caption {
+  padding: 1rem 1.25rem 1.25rem;
+  background: var(--surface-dark);
+  border-top: 1px solid var(--hairline);
+}
+
+.person-portrait__credit {
+  margin: 0.45rem 0 0;
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  line-height: 1.45;
+  color: var(--text-muted);
+}
+
+.person-portrait__note {
+  margin: 0.65rem 0 0;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
 .person-dual {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -799,21 +835,23 @@
 }
 
 .city-stage {
-  position: relative;
-  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  min-height: 360px;
   border: 1px solid var(--hairline);
   background: var(--surface-dark);
   overflow: hidden;
 }
 
 .city-skyline {
-  position: absolute;
-  inset: 0;
+  position: relative;
+  flex: 1 1 auto;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   gap: 0.5rem;
-  padding: 2rem 2rem 3rem;
+  min-height: 200px;
+  padding: 2rem 2rem 1.25rem;
 }
 
 .building {
@@ -821,16 +859,14 @@
   border: 1px solid rgba(196, 165, 116, 0.25);
   transition: height 0.8s var(--ease), opacity var(--transition);
   width: clamp(18px, 4vw, 42px);
+  max-height: 160px;
 }
 
 .city-stage__caption {
-  position: absolute;
-  left: 1.25rem;
-  bottom: 1rem;
-  right: 1.25rem;
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
+  position: relative;
+  flex: 0 0 auto;
+  padding: 1rem 1.25rem 1.25rem;
+  border-top: 1px solid var(--hairline);
   font-size: 0.85rem;
   color: var(--text-muted-light);
 }

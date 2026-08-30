@@ -33,13 +33,6 @@
 
 Источники: pinsklib.by, warmuseum.by, sb.by, Archives of Belarus, belarus.by, Britannica и др. Список — на `sources.html`.
 
-## Дизайн
-
-Стиль editorial archive / museum documentary. Палитра: charcoal `#17191e`, акцент `#c4a574`, brick и pine для истории и альтернативы. Шрифты: Literata (текст) и Onest (интерфейс).
-
-Подробности — в [DESIGN.md](DESIGN.md).
-
-## Языки
 
 В HTML два варианта:
 
@@ -58,7 +51,7 @@
 
 ## Данные
 
-JSON в `data/be/` и `data/ru/` (есть и корневые копии `data/*.json`):
+JSON в `data/be/` и `data/ru/` (по одному набору на язык):
 
 `history.json` · `timeline.json` · `people.json` · `cities.json` · `statistics.json` · `scenarios.json` · `sources.json`
 

@@ -66,6 +66,20 @@ async function initFuturePage() {
       .join("");
   }
 
+  function renderYearLabels() {
+    const labelsRoot = document.querySelector("[data-city-year-labels]");
+    if (!labelsRoot) return;
+
+    labelsRoot.innerHTML = yearKeys
+      .map((year, index) => {
+        const percent = (index / (yearKeys.length - 1)) * 100;
+        const edgeClass =
+          index === 0 ? "is-start" : index === yearKeys.length - 1 ? "is-end" : "";
+        return `<span class="${edgeClass}" style="left:${percent}%">${year}</span>`;
+      })
+      .join("");
+  }
+
   function renderTabs() {
     if (!cityTabs) return;
     cityTabs.innerHTML = focusCities
@@ -136,6 +150,7 @@ async function initFuturePage() {
     el.textContent = yearKeys[yearIndex];
   });
 
+  renderYearLabels();
   renderTabs();
   renderSkyline();
 

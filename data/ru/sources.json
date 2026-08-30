@@ -169,6 +169,26 @@
       "usedFor": "Довоенный и общий исторический контекст Беларуси (урбанизация, государственность)"
     },
     {
+      "id": "src-photo-korzh",
+      "title": "Фотография В. З. Коржа",
+      "author": "Главархив Москвы / mos.ru · Wikimedia Commons (CC BY 4.0)",
+      "year": "август 1944",
+      "type": "Фотография",
+      "link": "https://commons.wikimedia.org/wiki/File:Vasily_Korzh.jpg",
+      "status": "FACT",
+      "usedFor": "Страница «Люди»: портрет Василия Коржа (media/korzh.jpg)"
+    },
+    {
+      "id": "src-photo-khoruzhaya",
+      "title": "Vera Kharuzhaya (1903–1942)",
+      "author": "Wikimedia Commons · архивный портрет",
+      "year": "до 1942",
+      "type": "Фотография",
+      "link": "https://commons.wikimedia.org/wiki/File:Vera_Kharuzhaya_(1903_-1942).jpg",
+      "status": "FACT",
+      "usedFor": "Страница «Люди»: портрет Веры Хоружей (media/khoruzhaya.jpg)"
+    },
+    {
       "id": "src-project-hypothesis",
       "title": "Альтернативный сценарий проекта «Мир иначе»",
       "author": "Команда проекта",

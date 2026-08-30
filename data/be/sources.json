@@ -169,6 +169,26 @@
       "usedFor": "Даваенны і агульны гістарычны кантэкст Беларусі (урбанізацыя, дзяржаўнасць)"
     },
     {
+      "id": "src-photo-korzh",
+      "title": "Фотография В. З. Коржа",
+      "author": "Галоўархіў Масквы / mos.ru · Wikimedia Commons (CC BY 4.0)",
+      "year": "жнівень 1944",
+      "type": "Фатаграфія",
+      "link": "https://commons.wikimedia.org/wiki/File:Vasily_Korzh.jpg",
+      "status": "FACT",
+      "usedFor": "Старонка «Людзі»: партрэт Васіля Коржа (media/korzh.jpg)"
+    },
+    {
+      "id": "src-photo-khoruzhaya",
+      "title": "Vera Kharuzhaya (1903–1942)",
+      "author": "Wikimedia Commons · архіўны партрэт",
+      "year": "да 1942",
+      "type": "Фатаграфія",
+      "link": "https://commons.wikimedia.org/wiki/File:Vera_Kharuzhaya_(1903_-1942).jpg",
+      "status": "FACT",
+      "usedFor": "Старонка «Людзі»: партрэт Веры Харужай (media/khoruzhaya.jpg)"
+    },
+    {
       "id": "src-project-hypothesis",
       "title": "Альтэрнатыўны сцэнарый праекта «Свет інакш»",
       "author": "Каманда праекта",

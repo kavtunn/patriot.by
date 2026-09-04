@@ -4,69 +4,146 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google" content="notranslate">
-  <script>document.documentElement.lang=(function(){try{localStorage.removeItem("siteLang")}catch(e){}var l=localStorage.getItem("patriotLang");return l==="be"?"be":"ru"})();</script>
+  <script>
+    (function () {
+      try { localStorage.removeItem("siteLang"); } catch (e) {}
+      var lang = localStorage.getItem("patriotLang");
+      document.documentElement.lang = lang === "be" ? "be" : "ru";
+    })();
+  </script>
   <title data-i18n-be="Свет інакш — Беларусь" data-i18n-ru="Мир иначе — Беларусь">Мир иначе — Беларусь</title>
-  <meta name="description" data-i18n-be="Інтэрактыўны праект пра альтэрнатыўную гісторыю Беларусі: што было б, калі б катастрофу Вялікай Айчыннай вайны ўдалося прадухіліць." data-i18n-ru="Интерактивный проект об альтернативной истории Беларуси: что было бы, если бы катастрофу Великой Отечественной войны удалось предотвратить." content="Інтэрактыўны праект пра альтэрнатыўную гісторыю Беларусі.">
-  <link rel="icon" href="media/favicon.svg?v=20260830g" type="image/svg+xml">
+  <meta name="description" data-i18n-be="Інтэрактыўны праект пра альтэрнатыўную гісторыю Беларусі." data-i18n-ru="Интерактивный проект об альтернативной истории Беларуси." content="Интерактивный проект об альтернативной истории Беларуси.">
+  <link rel="icon" href="media/favicon.svg" type="image/svg+xml">
   <meta property="og:type" content="website">
-  <meta property="og:locale" content="be_BY">
   <meta property="og:title" content="Мир иначе — Беларусь">
   <meta property="og:description" content="Интерактивный проект для ПАТРИОТ.by">
   <meta property="og:image" content="media/favicon.svg">
-  <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="css/reset.css?v=20260830g">
-  <link rel="stylesheet" href="css/variables.css?v=20260830g">
-  <link rel="stylesheet" href="css/global.css?v=20260830g">
-  <link rel="stylesheet" href="css/components.css?v=20260830g">
-  <link rel="stylesheet" href="css/pages.css?v=20260830g">
-  <link rel="stylesheet" href="css/animations.css?v=20260830g">
-  <link rel="stylesheet" href="css/responsive.css?v=20260830g">
+
+  <link rel="stylesheet" href="fonts/local.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/onebit.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
 </head>
-<body>
+<body class="page-index">
   <div data-app-chrome></div>
 
   <main id="main">
+    <!-- Первый экран: картинка из Impeccable + кликабельные зоны -->
     <section class="hero" aria-label="Hero">
-      <div class="hero__bg" aria-hidden="true"></div>
-      <div class="hero__shell">
-        <div class="hero__content">
-          <p class="brand-mark">Беларусь</p>
-          <h1 class="display display--xl hero__title">
-            <span data-lang="be">Свет інакш</span>
-            <span data-lang="ru">Мир иначе</span>
+      <div class="hero__window mac-window">
+        <div class="mac-window__titlebar">
+          <span class="mac-window__box" aria-hidden="true"></span>
+          <h1 class="mac-window__title">
+            <span data-lang="be">Свет інакш — Беларусь</span>
+            <span data-lang="ru">Мир иначе — Беларусь</span>
           </h1>
-          <p class="lead">
-            <span data-lang="be">Што стала б са краінай, калі б 1941 год склаўся інакш?</span>
-            <span data-lang="ru">Что стало бы со страной, если бы 1941 год сложился иначе?</span>
-          </p>
-          <div class="hero__actions">
-            <a class="btn btn--primary" href="#intro" data-i18n-be="Пачаць" data-i18n-ru="Начать">Пачаць</a>
-            <a class="btn btn--ghost" href="turning-point.html" data-i18n-be="Да пункта пералому" data-i18n-ru="К точке перелома">Да пункта пералому</a>
+          <span class="mac-window__box" aria-hidden="true"></span>
+        </div>
+
+        <div class="mac-window__body">
+          <div class="mac-window__pane mac-window__pane--left">
+            <h2 class="mac-window__pane-title">
+              <span data-lang="be">Наша гісторыя</span>
+              <span data-lang="ru">Наша история</span>
+            </h2>
+            <span class="mac-stamp">
+              <span data-lang="be">Факт</span>
+              <span data-lang="ru">Факт</span>
+            </span>
+            <ul class="mac-list">
+              <li>
+                <span data-lang="be">17 верасня 1939 года Чырвоная Армія ўвайшла на тэрыторыю Заходняй Беларусі.</span>
+                <span data-lang="ru">17 сентября 1939 года Красная Армия вошла на территорию Западной Беларуси.</span>
+              </li>
+              <li>
+                <span data-lang="be">Заходняя Беларусь стала часткай БССР, утворанай у 1919 годзе.</span>
+                <span data-lang="ru">Западная Беларусь стала частью БССР, образованной в 1919 году.</span>
+              </li>
+              <li>
+                <span data-lang="be">28 чэрвеня 1940 года Вярхоўны Савет СССР прыняў Закон аб прыняцці БССР у склад СССР.</span>
+                <span data-lang="ru">28 июня 1940 года Верховный Совет СССР принял Закон о принятии БССР в состав СССР.</span>
+              </li>
+              <li>
+                <span data-lang="be">1941 год — пачалася Вялікая Айчынная вайна.</span>
+                <span data-lang="ru">1941 год — началась Великая Отечественная война.</span>
+              </li>
+              <li>
+                <span data-lang="be">З першых дзён Беларусь апынулася ў зоне фронту, акупацыі і масавых страт.</span>
+                <span data-lang="ru">С первых дней Беларусь оказалась в зоне фронта, оккупации и массовых потерь.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="mac-window__pane">
+            <h2 class="mac-window__pane-title">
+              <span data-lang="be">Альтэрнатыва</span>
+              <span data-lang="ru">Альтернатива</span>
+            </h2>
+            <span class="mac-stamp mac-stamp--dashed">
+              <span data-lang="be">Гіпотэза</span>
+              <span data-lang="ru">Гипотеза</span>
+            </span>
+            <ul class="mac-list">
+              <li>
+                <span data-lang="be">Калі б Заходняя Беларусь не ўвайшла ў склад БССР у 1939–1940, рэгіён мог захаваць дзяржаўную самастойнасць.</span>
+                <span data-lang="ru">Если бы Западная Беларусь не вошла в состав БССР в 1939–1940, регион мог сохранить государственную самостоятельность.</span>
+              </li>
+              <li>
+                <span data-lang="be">Незалежная Беларусь магла б весці ўласную палітыку і абраць нейтралітэт у еўрапейскім канфлікце.</span>
+                <span data-lang="ru">Независимая Беларусь могла бы вести собственную политику и выбрать нейтралитет в европейском конфликте.</span>
+              </li>
+              <li>
+                <span data-lang="be">Адсутнасць уваходжання ў СССР магла змяніць геапалітычны баланс ва Усходняй Еўропе.</span>
+                <span data-lang="ru">Отсутствие вхождения в СССР могло изменить геополитический баланс в Восточной Европе.</span>
+              </li>
+              <li>
+                <span data-lang="be">Пры нейтралітэце Беларусь магла пазбегнуць разбурэння напачатку вайны.</span>
+                <span data-lang="ru">При нейтралитете Беларусь могла избежать разрушения в начале войны.</span>
+              </li>
+              <li>
+                <span data-lang="be">Пасляваеннае развіццё краіны магло пайсі па іншай, бесперапыннай галіне.</span>
+                <span data-lang="ru">Послевоенное развитие страны могло пойти по другой, непрерывной ветке.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero__cta mac-window__cta">
+            <a class="btn btn--primary" href="#intro" data-i18n-be="Пачаць" data-i18n-ru="Начать">Начать</a>
           </div>
         </div>
-        <p class="hero__scroll"><span data-lang="be">Далей</span><span data-lang="ru">Дальше</span></p>
+
+        <div class="mac-window__status">
+          <span data-lang="be">Год сцэнарыя</span>
+          <span data-lang="ru">Год сценария</span>
+          <input class="mac-year-field" type="text" value="1941" readonly aria-label="1941">
+        </div>
       </div>
     </section>
 
     <section class="intro-timeline section" id="intro">
       <div class="container intro-layout">
         <div class="intro-layout__copy">
-          <p class="eyebrow reveal"><span data-lang="be">Уступ</span><span data-lang="ru">Вступление</span></p>
-          <h2 class="display display--md reveal reveal-delay-1" style="margin:0.75rem 0 1rem;">
+          <h2 class="display display--md" style="margin:0.75rem 0 1rem;">
             <span data-lang="be">Беларусь на лініі часу</span>
             <span data-lang="ru">Беларусь на линии времени</span>
           </h2>
-          <p class="lead reveal reveal-delay-2">
+          <p class="lead">
             <span data-lang="be">Да 1941 года гісторыя яшчэ адзіная. Пасля — яна можа падзяліцца.</span>
             <span data-lang="ru">До 1941 года история ещё едина. После — она может разделиться.</span>
           </p>
-          <p class="body-text reveal reveal-delay-2" style="margin-top:1rem;">
+          <p class="body-text" style="margin-top:1rem;">
             <span data-lang="be">Факт, аналіз і гіпотэза заўсёды пазначаны асобна — альтэрнатыва не выдаецца за гістарычную праўду.</span>
             <span data-lang="ru">Факт, анализ и гипотеза всегда помечены отдельно — альтернатива не выдаётся за историческую истину.</span>
           </p>
         </div>
 
-        <div class="intro-timeline__track reveal reveal-delay-3" aria-label="Years">
+        <div class="intro-timeline__track" aria-label="Years">
           <div class="intro-year"><div class="intro-year__label">1930</div></div>
           <div class="intro-year"><div class="intro-year__label">1939</div></div>
           <div class="intro-year is-pivot"><div class="intro-year__label">1941</div></div>
@@ -78,12 +155,8 @@
           <div class="intro-year"><div class="intro-year__label">2026</div></div>
         </div>
 
-        <div class="pivot-card reveal">
+        <div class="pivot-card">
           <div class="pivot-card__date">1941</div>
-          <p class="eyebrow">
-            <span data-lang="be">Пункт пералому · Вялікая Айчынная</span>
-            <span data-lang="ru">Точка перелома · Великая Отечественная</span>
-          </p>
           <h3 class="display display--md" style="margin:0.75rem 0;">
             <span data-lang="be">Калі гісторыя Беларусі магла пайсіці інакш</span>
             <span data-lang="ru">Когда история Беларуси могла пойти иначе</span>
@@ -93,51 +166,78 @@
             <span data-lang="ru">Начинается Великая Отечественная война. Беларусь с первых дней оказывается в зоне фронта и оккупации. Проект спрашивает не «как переписать прошлое», а «какую цену заплатила страна — и какой могла бы стать без этой цены».</span>
           </p>
           <div style="margin-top:1.25rem;">
-            <span class="tag tag--fact"><span data-lang="be">Факт</span><span data-lang="ru">Факт</span></span>
+            <span class="tag tag--fact">
+              <span data-lang="be">Факт</span>
+              <span data-lang="ru">Факт</span>
+            </span>
           </div>
           <p class="source-cite" style="margin-top:1rem;justify-content:center;text-align:center;">
-            <span class="source-cite__label"><span data-lang="be">Крыніца:</span><span data-lang="ru">Источник:</span></span>
+            <span class="source-cite__label">
+              <span data-lang="be">Крыніца:</span>
+              <span data-lang="ru">Источник:</span>
+            </span>
             Britannica, Operation Barbarossa; belarus.by ·
-            <a href="sources.html"><span data-lang="be">усе крыніцы</span><span data-lang="ru">все источники</span></a>
+            <a href="sources.html">
+              <span data-lang="be">усе крыніцы</span>
+              <span data-lang="ru">все источники</span>
+            </a>
           </p>
           <blockquote class="quote-block">
             <span data-lang="be">«Цана вайны вымяраецца мільёнамі няздзейсненых жыццяў, ідэй і будучых магчымасцяў.»</span>
             <span data-lang="ru">«Цена войны измеряется миллионами несостоявшихся жизней, идей и будущих возможностей.»</span>
           </blockquote>
           <p class="source-cite" style="justify-content:center;text-align:center;">
-            <span class="source-cite__label"><span data-lang="be">Цытата:</span><span data-lang="ru">Цитата:</span></span>
+            <span class="source-cite__label">
+              <span data-lang="be">Цытата:</span>
+              <span data-lang="ru">Цитата:</span>
+            </span>
             <span data-lang="be">мастацкі тэзіс праекта (не архіўная цытата)</span>
             <span data-lang="ru">художественный тезис проекта (не архивная цитата)</span>
             ·
-            <a href="sources.html#about"><span data-lang="be">пра метадалогію</span><span data-lang="ru">о методологии</span></a>
+            <a href="sources.html#about">
+              <span data-lang="be">пра метадалогію</span>
+              <span data-lang="ru">о методологии</span>
+            </a>
           </p>
         </div>
 
         <dl class="pivot-stats">
-          <div class="pivot-stat reveal">
-            <dt class="pivot-stat__label"><span data-lang="be">Перыяд даследавання</span><span data-lang="ru">Период исследования</span></dt>
-            <dd class="pivot-stat__value">1941–2026</dd>
+          <div class="pivot-stat">
+            <dt class="pivot-stat__label">
+              <span data-lang="be">Перыяд даследавання</span>
+              <span data-lang="ru">Период исследования</span>
+            </dt>
+            <dd class="pivot-stat__value">1930–2026</dd>
           </div>
-          <div class="pivot-stat reveal reveal-delay-1">
-            <dt class="pivot-stat__label"><span data-lang="be">Дзве галіны</span><span data-lang="ru">Две ветки</span></dt>
-            <dd class="pivot-stat__value"><span data-lang="be">Гісторыя і альтэрнатыва</span><span data-lang="ru">История и альтернатива</span></dd>
+          <div class="pivot-stat">
+            <dt class="pivot-stat__label">
+              <span data-lang="be">Дзве галіны</span>
+              <span data-lang="ru">Две ветки</span>
+            </dt>
+            <dd class="pivot-stat__value">
+              <span data-lang="be">Гісторыя і альтэрнатыва</span>
+              <span data-lang="ru">История и альтернатива</span>
+            </dd>
           </div>
-          <div class="pivot-stat reveal reveal-delay-2">
-            <dt class="pivot-stat__label"><span data-lang="be">Галоўны герой</span><span data-lang="ru">Главный герой</span></dt>
+          <div class="pivot-stat">
+            <dt class="pivot-stat__label">
+              <span data-lang="be">Галоўны герой</span>
+              <span data-lang="ru">Главный герой</span>
+            </dt>
             <dd class="pivot-stat__value">Беларусь</dd>
           </div>
         </dl>
 
         <div class="intro-cta">
-          <a class="btn btn--primary" href="history.html" data-i18n-be="Спачатку факты" data-i18n-ru="Сначала факты">Спачатку факты</a>
-          <a class="btn btn--ghost" href="turning-point.html" data-i18n-be="Адразу да выбару" data-i18n-ru="Сразу к выбору">Адразу да выбару</a>
+          <a class="btn btn--primary" href="history.html" data-i18n-be="Спачатку факты" data-i18n-ru="Сначала факты">Сначала факты</a>
+          <a class="btn btn--ghost" href="turning-point.html" data-i18n-be="Адразу да выбару" data-i18n-ru="Сразу к выбору">Сразу к выбору</a>
         </div>
       </div>
     </section>
 
     <section class="section section--tight" style="padding-top:0;">
       <div class="container">
-        <div class="disclaimer reveal">
+        <div class="disclaimer">
           <span data-lang="be">Гэта не сцвярджэнне гістарычнай праўды. Альтэрнатыўныя сцэнарыі пазначаны як гіпотэза і не выдаюцца за факт.</span>
           <span data-lang="ru">Это не утверждение исторической истины. Альтернативные сценарии помечены как гипотеза и не выдаются за факт.</span>
         </div>
@@ -148,12 +248,17 @@
   <footer class="site-footer">
     <div class="container site-footer__inner">
       <p>ПАТРИОТ.by · <span data-lang="be">«Свет інакш»</span><span data-lang="ru">«Мир иначе»</span></p>
-      <p><a href="sources.html"><span data-lang="be">Пра праект і крыніцы</span><span data-lang="ru">О проекте и источники</span></a></p>
+      <p>
+        <a href="sources.html">
+          <span data-lang="be">Пра праект і крыніцы</span>
+          <span data-lang="ru">О проекте и источники</span>
+        </a>
+      </p>
     </div>
   </footer>
 
-  <script src="js/i18n.js?v=20260830g"></script>
-  <script src="js/app.js?v=20260830g"></script>
-  <script src="js/animations.js?v=20260830g"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/animations.js"></script>
 </body>
 </html>

@@ -557,3 +557,55 @@
     max-width: 100%;
   }
 }
+
+/* ——— One-bit desktop adaptations ——— */
+@media (max-width: 900px) {
+  .hero__window {
+    width: 100%;
+  }
+  .desktop-icons {
+    display: none;
+  }
+  .mac-window__body {
+    grid-template-columns: 1fr;
+  }
+  .mac-window__pane--left {
+    border-right: 0;
+    border-bottom: 2px dashed var(--ink);
+  }
+  .mac-window__cta {
+    position: static;
+    transform: none;
+    display: flex;
+    justify-content: center;
+    padding: 0.75rem 0 0.25rem;
+  }
+  .mac-window__pane {
+    padding-bottom: 1rem;
+  }
+  .nav__links {
+    display: none;
+  }
+  .menu-btn {
+    display: inline-block;
+  }
+  .hero__shell {
+    height: auto;
+    min-height: calc(100dvh - var(--nav-height));
+    padding: 0.75rem;
+  }
+}
+
+
+/* Index live desktop: do not apply legacy hero padding/shell rules */
+@media (max-width: 900px) {
+  body.page-index .hero {
+    padding: 0 !important;
+  }
+  body.page-index .hero__shell {
+    height: 100% !important;
+    min-height: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+  }
+}

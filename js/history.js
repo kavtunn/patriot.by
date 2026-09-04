@@ -72,7 +72,7 @@ async function initHistoryPage() {
 
     const items = root.querySelectorAll("[data-chain-item]");
     items.forEach((item, index) => {
-      const delay = reduceMotion ? 0 : 280 + index * 180;
+      const delay = reduceMotion ? 0 : 80 + index * 70;
       setTimeout(() => {
         item.classList.add("is-visible");
       }, delay);

@@ -1,53 +1,63 @@
 :root {
-  /* Editorial archive — soft dusk ink, never pure black/white */
-  --bg-darker: #14161a;
-  --bg-dark: #17191e;
-  --bg-light: #eceae4;
-  --surface: #f7f5f0;
-  --surface-dark: #22262d;
-  --surface-elevated: #2b3038;
+  /* Early one-bit desktop — ink & paper only; dither stands in for gray */
+  --ink: #000000;
+  --paper: #ffffff;
+  --dither-25: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4'%3E%3Crect width='4' height='4' fill='%23fff'/%3E%3Crect width='1' height='1' fill='%23000'/%3E%3C/svg%3E");
+  --dither-50: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2' height='2'%3E%3Crect width='2' height='2' fill='%23fff'/%3E%3Crect width='1' height='1' fill='%23000'/%3E%3Crect x='1' y='1' width='1' height='1' fill='%23000'/%3E%3C/svg%3E");
+  --dither-75: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4'%3E%3Crect width='4' height='4' fill='%23000'/%3E%3Crect width='1' height='1' fill='%23fff'/%3E%3C/svg%3E");
+  /* Archival folder field — photo texture; UI text stays on paper plates */
+  --archive-bg: url("../media/bg/archive-folder.jpg");
+  --archive-fallback: #c4bfb4;
 
-  --text-primary: #e8e6e1;
-  --text-dark: #1c1a17;
-  --text-muted: #7d7972;
-  --text-muted-light: #b5b0a8;
-  --text-body: #aea9a1;
+  --bg-darker: #000000;
+  --bg-dark: #ffffff;
+  --bg-light: #ffffff;
+  --surface: #ffffff;
+  --surface-dark: #ffffff;
+  --surface-elevated: #ffffff;
 
-  /* Desaturated semantic hues — easy on dark canvas */
-  --history: #a86b64;
-  --history-soft: rgba(168, 107, 100, 0.12);
-  --alternative: #6a8f78;
-  --alternative-soft: rgba(106, 143, 120, 0.12);
+  --text-primary: #000000;
+  --text-dark: #000000;
+  --text-muted: #000000;
+  --text-muted-light: #000000;
+  --text-body: #000000;
 
-  --accent: #c4a574;
-  --accent-soft: rgba(196, 165, 116, 0.12);
-  --accent-strong: #d4b88a;
+  --history: #000000;
+  --history-soft: transparent;
+  --alternative: #000000;
+  --alternative-soft: transparent;
 
-  --fact: #7e96b5;
-  --analysis: #b59a5a;
-  --hypothesis: #7a9a92;
+  --accent: #000000;
+  --accent-soft: transparent;
+  --accent-strong: #000000;
 
-  --hairline: rgba(232, 230, 225, 0.08);
-  --hairline-strong: rgba(232, 230, 225, 0.16);
+  --fact: #000000;
+  --analysis: #000000;
+  --hypothesis: #000000;
 
-  --font-display: "Literata", "Times New Roman", serif;
-  --font-serif: "Literata", "Times New Roman", serif;
-  --font-sans: "Onest", system-ui, sans-serif;
+  --hairline: #000000;
+  --hairline-strong: #000000;
+
+  --font-display: "Pixelify Sans", "ChiKareGo", Monaco, monospace;
+  --font-serif: "Source Sans 3", "Narnoor", "Geneva", Geneva, "Lucida Grande", sans-serif;
+  --font-sans: "Source Sans 3", "Narnoor", "Geneva", Geneva, "Lucida Grande", sans-serif;
+  --font-ui: "Pixelify Sans", Monaco, monospace;
 
   --space-xs: 0.5rem;
-  --space-sm: 1rem;
-  --space-md: 1.5rem;
-  --space-lg: 2.5rem;
-  --space-xl: 4.5rem;
-  --space-2xl: 7rem;
+  --space-sm: 0.75rem;
+  --space-md: 1.25rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 4.5rem;
 
-  --nav-height: 4rem;
-  --radius: 4px;
-  --radius-sm: 4px;
-  --radius-pill: 4px;
+  --nav-height: 2rem;
+  --radius: 0;
+  --radius-sm: 0;
+  --radius-pill: 0;
   --max-width: 1080px;
-  --ease: cubic-bezier(0.22, 1, 0.36, 1);
-  --transition: 0.3s var(--ease);
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --transition: 0.2s ease;
+  --pixel: 2px;
 
-  --grain-opacity: 0.028;
+  --grain-opacity: 0;
 }

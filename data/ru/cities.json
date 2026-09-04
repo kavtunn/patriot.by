@@ -624,42 +624,42 @@
     {
       "id": "industry",
       "label": "Промышленность",
-      "icon": "🏭"
+      "icon": ""
     },
     {
       "id": "education",
       "label": "Образование",
-      "icon": "🎓"
+      "icon": ""
     },
     {
       "id": "medicine",
       "label": "Медицина",
-      "icon": "🏥"
+      "icon": ""
     },
     {
       "id": "infra",
       "label": "Инфраструктура",
-      "icon": "🚆"
+      "icon": ""
     },
     {
       "id": "cities",
       "label": "Города",
-      "icon": "🏙"
+      "icon": ""
     },
     {
       "id": "nature",
       "label": "Природа",
-      "icon": "🌳"
+      "icon": ""
     },
     {
       "id": "science",
       "label": "Научные центры",
-      "icon": "🔬"
+      "icon": ""
     },
     {
       "id": "culture",
       "label": "Культура",
-      "icon": "🎭"
+      "icon": ""
     }
   ]
 }

@@ -8,15 +8,13 @@
   height: var(--nav-height);
   display: flex;
   align-items: center;
-  background: rgba(23, 25, 30, 0.72);
-  backdrop-filter: blur(16px) saturate(1.1);
-  border-bottom: 1px solid transparent;
-  transition: background var(--transition), border-color var(--transition);
+  background: var(--bg-darker);
+  border-bottom: 1px solid var(--hairline);
+  transition: border-color var(--transition);
 }
 
 .site-header.is-scrolled {
-  background: rgba(20, 22, 26, 0.94);
-  border-bottom-color: var(--hairline);
+  border-bottom-color: var(--hairline-strong);
 }
 
 .site-header__inner {
@@ -79,10 +77,10 @@
   display: inline-flex;
   align-items: center;
   gap: 0.15rem;
-  border: 1px solid var(--hairline);
-  border-radius: 999px;
+  border: 1px solid var(--hairline-strong);
+  border-radius: var(--radius);
   padding: 0.15rem;
-  background: rgba(255, 255, 255, 0.03);
+  background: var(--surface-dark);
 }
 
 .lang-switch__btn {
@@ -92,7 +90,7 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   padding: 0.35rem 0.55rem;
-  border-radius: 999px;
+  border-radius: var(--radius-sm);
   color: var(--text-muted);
   background: transparent;
   border: 0;
@@ -114,6 +112,12 @@
 html[lang="be"] [data-lang="ru"],
 html[lang="ru"] [data-lang="be"] {
   display: none !important;
+}
+
+/* SVG <tspan> language swap */
+html[lang="be"] tspan[data-lang="ru"],
+html[lang="ru"] tspan[data-lang="be"] {
+  display: none;
 }
 
 .menu-btn {
@@ -196,17 +200,13 @@ html[lang="ru"] [data-lang="be"] {
     transform var(--transition);
 }
 
-.btn:hover {
-  transform: translateY(-1px);
-}
-
 .btn:active {
-  transform: translateY(0);
+  opacity: 0.88;
 }
 
 .btn--primary {
   background: var(--accent);
-  color: #1a1712;
+  color: #f5f2eb;
   border-color: var(--accent);
 }
 
@@ -222,14 +222,14 @@ html[lang="ru"] [data-lang="be"] {
 }
 
 .btn--ghost:hover {
-  border-color: rgba(196, 165, 116, 0.55);
-  color: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-strong);
   background: var(--accent-soft);
 }
 
 .btn--history {
-  border-color: rgba(168, 107, 100, 0.5);
-  color: #d4a8a3;
+  border-color: var(--history);
+  color: var(--history);
   background: transparent;
 }
 
@@ -241,8 +241,8 @@ html[lang="ru"] [data-lang="be"] {
 }
 
 .btn--alternative {
-  border-color: rgba(106, 143, 120, 0.5);
-  color: #a8c4b4;
+  border-color: var(--alternative);
+  color: var(--alternative);
   background: transparent;
 }
 
@@ -340,7 +340,7 @@ html[lang="ru"] [data-lang="be"] {
 /* ——— Panels (borderless-first) ——— */
 .panel {
   background: var(--surface-dark);
-  border: none;
+  border: 1px solid var(--hairline);
   padding: 1.5rem;
   border-radius: var(--radius);
 }
@@ -364,8 +364,8 @@ html[lang="ru"] [data-lang="be"] {
 }
 
 .panel__text {
-  font-family: var(--font-display);
-  font-size: 1rem;
+  font-family: var(--font-sans);
+  font-size: 0.98rem;
   line-height: 1.7;
   color: var(--text-body);
 }
@@ -382,7 +382,7 @@ html[lang="ru"] [data-lang="be"] {
   display: grid;
   place-items: center;
   padding: 1.5rem;
-  background: rgba(20, 22, 26, 0.82);
+  background: rgba(24, 21, 18, 0.92);
   opacity: 0;
   visibility: hidden;
   transition: opacity var(--transition), visibility var(--transition);
@@ -480,14 +480,15 @@ html[lang="ru"] [data-lang="be"] {
 
 /* ——— Disclaimer ——— */
 .disclaimer {
-  border-left: 2px solid var(--accent);
+  border: 1px solid var(--hairline);
+  border-left: 1px solid var(--ink);
   padding: 1.1rem 1.25rem;
-  background: var(--accent-soft);
-  font-family: var(--font-display);
-  font-size: 0.98rem;
+  background: var(--surface-dark);
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
   line-height: 1.65;
   color: var(--text-body);
-  border-radius: 0 var(--radius) var(--radius) 0;
+  border-radius: var(--radius);
 }
 
 .page-light .disclaimer {
@@ -520,17 +521,16 @@ html[lang="ru"] [data-lang="be"] {
   width: 100%;
   text-align: left;
   padding: 1.2rem 1.3rem;
-  border: 1px solid transparent;
+  border: 1px solid var(--hairline);
   border-radius: var(--radius);
   background: var(--surface-dark);
-  transition: border-color var(--transition), background var(--transition), transform var(--transition);
+  transition: border-color var(--transition), background var(--transition);
 }
 
 .choice:hover,
 .choice.is-selected {
-  border-color: rgba(196, 165, 116, 0.35);
+  border-color: var(--hairline-strong);
   background: var(--surface-elevated);
-  transform: translateY(-1px);
 }
 
 .choice__key {

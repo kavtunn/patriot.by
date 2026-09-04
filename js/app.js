@@ -10,7 +10,7 @@ const AppState = {
   year: Number(localStorage.getItem(STORAGE_KEYS.year)) || 1941
 };
 
-const CACHE_VER = "20260830g";
+const CACHE_VER = "1";
 
 function saveState() {
   localStorage.setItem(STORAGE_KEYS.reality, AppState.reality);
@@ -101,7 +101,7 @@ function updateJourneyProgress() {
   if (!bar) return;
   const index = JOURNEY.indexOf(getPageId());
   const progress = index < 0 ? 0 : ((index + 1) / JOURNEY.length) * 100;
-  bar.style.width = `${progress}%`;
+  bar.style.transform = `scaleX(${progress / 100})`;
 }
 
 function navLinks() {
@@ -178,8 +178,20 @@ function mountChrome() {
   });
 }
 
+function bindLangSwitch(root = document) {
+  root.querySelectorAll("[data-set-lang]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const next = btn.dataset.setLang;
+      if (next === I18N.getLang()) return;
+      I18N.setLang(next);
+      location.reload();
+    });
+  });
+}
+
 function initNavigation() {
   mountChrome();
+  bindLangSwitch(document);
 
   const menuBtn = document.querySelector("[data-menu-toggle]");
   const drawer = document.querySelector("[data-nav-drawer]");

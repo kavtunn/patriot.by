@@ -1,11 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Мир иначе">
-  <rect width="64" height="64" rx="12" fill="#17191e"/>
-  <!-- trunk: shared history -->
-  <path d="M32 10 V30" fill="none" stroke="#c4a574" stroke-width="3.5" stroke-linecap="round"/>
-  <!-- historical branch -->
-  <path d="M32 30 L18 52" fill="none" stroke="#a86b64" stroke-width="3.5" stroke-linecap="round"/>
-  <!-- alternative branch -->
-  <path d="M32 30 L46 52" fill="none" stroke="#6a8f78" stroke-width="3.5" stroke-linecap="round"/>
-  <!-- pivot point 1941 -->
-  <circle cx="32" cy="30" r="4" fill="#c4a574"/>
+  <rect width="64" height="64" rx="4" fill="#1f1b17"/>
+  <path d="M32 10 V30" fill="none" stroke="#b5623f" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M32 30 L18 52" fill="none" stroke="#9a5a48" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M32 30 L46 52" fill="none" stroke="#5c6b52" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="32" cy="30" r="4" fill="#b5623f"/>
 </svg>

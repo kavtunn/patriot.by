@@ -32,9 +32,11 @@ async function initTimelinePage() {
   function renderLabels() {
     if (!labelsRoot) return;
 
-    const labelYears = [1930, 1941, 1960, 1980, 2026].filter((year) =>
-      data.years.includes(year)
-    );
+    const narrow = window.matchMedia("(max-width: 640px)").matches;
+    const candidates = narrow
+      ? [1930, 1941, 2026]
+      : [1930, 1941, 1960, 1980, 2026];
+    const labelYears = candidates.filter((year) => data.years.includes(year));
 
     labelsRoot.innerHTML = labelYears
       .map((year, index) => {
@@ -45,6 +47,8 @@ async function initTimelinePage() {
       })
       .join("");
   }
+
+  window.matchMedia("(max-width: 640px)").addEventListener("change", renderLabels);
 
   function renderRail(activeEvent) {
     const events = visibleEvents();

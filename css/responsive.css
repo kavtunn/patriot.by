@@ -235,6 +235,47 @@
   }
 }
 
+/* ——— 640 — phone landscape / small phone ——— */
+@media (max-width: 640px) {
+  .year-slider-labels {
+    height: 1.1rem;
+    font-size: 0.72rem;
+    letter-spacing: 0.02em;
+  }
+
+  .year-slider-wrap {
+    padding: 0.75rem 0.85rem 0.9rem;
+  }
+
+  .timeline-event {
+    width: 100%;
+  }
+
+  .timeline-rail {
+    padding-left: 1.25rem;
+  }
+
+  .reality-switch {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .reality-switch__btn {
+    width: 100%;
+    padding: 0.55rem 0.4rem;
+    font-size: 0.62rem;
+    letter-spacing: 0.02em;
+    white-space: normal;
+    line-height: 1.2;
+  }
+
+  .year-pill {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
 /* ——— 480 — phone ——— */
 @media (max-width: 480px) {
   .container,
@@ -247,6 +288,12 @@
   .btn {
     width: 100%;
     justify-content: center;
+  }
+
+  .hero__cta .btn,
+  .hero__cta .btn--primary {
+    width: auto;
+    max-width: 100%;
   }
 
   .hero__actions,
@@ -573,12 +620,18 @@
     border-right: 0;
     border-bottom: 2px dashed var(--ink);
   }
-  .mac-window__cta {
+  .mac-window__cta,
+  .hero__cta,
+  .hero__window .mac-window__cta {
     position: static;
+    left: auto;
+    bottom: auto;
     transform: none;
     display: flex;
     justify-content: center;
-    padding: 0.75rem 0 0.25rem;
+    width: 100%;
+    padding: 0.75rem 1rem 1rem;
+    box-sizing: border-box;
   }
   .mac-window__pane {
     padding-bottom: 1rem;

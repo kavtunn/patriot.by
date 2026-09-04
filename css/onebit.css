@@ -655,17 +655,27 @@
 }
 
 .timeline-event {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
   opacity: 1;
   background: var(--paper);
   border: 2px solid var(--ink);
+  color: var(--ink);
   padding: 0.75rem 0.85rem;
   margin-bottom: 0.65rem;
   box-shadow: 2px 2px 0 var(--ink);
 }
 
+.timeline-event:not(.is-active) .timeline-event__title {
+  color: var(--ink);
+}
+
 .timeline-event.is-active {
   background: var(--ink);
   color: var(--paper);
+  box-shadow: 0 0 0 var(--ink);
 }
 
 .timeline-event.is-active .timeline-event__year,

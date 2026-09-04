@@ -3,5 +3,4 @@
 .vscode/
 *.log
 node_modules/
-.impeccable/
-assets/plates/
+

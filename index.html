@@ -7,15 +7,16 @@
   <script>
     (function () {
       try { localStorage.removeItem("siteLang"); } catch (e) {}
-      var lang = localStorage.getItem("patriotLang");
-      document.documentElement.lang = lang === "be" ? "be" : "ru";
+      var lang = localStorage.getItem("patriotLang") === "be" ? "be" : "ru";
+      document.documentElement.lang = lang;
+      document.title = lang === "be" ? "Свет інакш" : "Мир иначе";
     })();
   </script>
-  <title data-i18n-be="Свет інакш — Беларусь" data-i18n-ru="Мир иначе — Беларусь">Мир иначе — Беларусь</title>
+  <title data-i18n-be="Свет інакш" data-i18n-ru="Мир иначе">Мир иначе</title>
   <meta name="description" data-i18n-be="Інтэрактыўны праект пра альтэрнатыўную гісторыю Беларусі." data-i18n-ru="Интерактивный проект об альтернативной истории Беларуси." content="Интерактивный проект об альтернативной истории Беларуси.">
   <link rel="icon" href="media/favicon.svg" type="image/svg+xml">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Мир иначе — Беларусь">
+  <meta property="og:title" content="Мир иначе">
   <meta property="og:description" content="Интерактивный проект для ПАТРИОТ.by">
   <meta property="og:image" content="media/favicon.svg">
 

@@ -8,12 +8,12 @@
  * Or on one element:
  *   <a data-i18n-be="Пачаць" data-i18n-ru="Начать">Пачаць</a>
  *
- * Title / meta:
- *   <title data-i18n-be="..." data-i18n-ru="...">...</title>
+ * Document title is always the project name (Мир иначе / Свет інакш), not the page name.
  */
 const LANG_KEY = "patriotLang";
 const SUPPORTED = ["be", "ru"];
 const DEFAULT_LANG = "ru";
+const SITE_TITLE = { ru: "Мир иначе", be: "Свет інакш" };
 
 const UI = {
   be: {
@@ -181,15 +181,19 @@ function applyLangAttrs(root = document) {
     }
   });
 
-  root.querySelectorAll("title[data-i18n-be]").forEach((el) => {
-    const value = el.getAttribute(`data-i18n-${lang}`);
-    if (value) el.textContent = value;
+  // Tab title is always the project name (language only), never the page name.
+  document.title = SITE_TITLE[lang] || SITE_TITLE.ru;
+  root.querySelectorAll("title").forEach((el) => {
+    el.textContent = document.title;
   });
 
   root.querySelectorAll("meta[data-i18n-be]").forEach((el) => {
     const value = el.getAttribute(`data-i18n-${lang}`);
     if (value) el.setAttribute("content", value);
   });
+
+  const ogTitle = root.querySelector('meta[property="og:title"]');
+  if (ogTitle) ogTitle.setAttribute("content", document.title);
 }
 
 function yearsWord(n) {

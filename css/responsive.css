@@ -199,6 +199,10 @@
     line-height: 1;
   }
 
+  .logo__sub {
+    display: none;
+  }
+
   .page-shell,
   .timeline-page.page-shell,
   .people-page.page-shell,
@@ -410,10 +414,6 @@
   .logo {
     font-size: 0.82rem;
     max-width: none;
-  }
-
-  .logo__sub {
-    display: none;
   }
 
   .lang-switch__btn {

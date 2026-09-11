@@ -75,7 +75,7 @@
   padding: 0.05rem 0.65rem;
   border: 0;
   white-space: nowrap;
-  -webkit-font-smoothing: none;
+  -webkit-font-smoothing: antialiased;
 }
 
 .hero__window .mac-window__body {
@@ -83,12 +83,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   flex: 1;
-  min-height: 22rem;
+  min-height: 24rem;
   overflow: visible;
 }
 
 .hero__window .mac-window__pane {
-  padding: 1.1rem 1.15rem 6.75rem;
+  padding: 1.35rem 1.35rem 7rem;
   overflow: visible;
   background: var(--paper);
 }
@@ -98,9 +98,9 @@
 }
 
 .hero__window .mac-window__pane-title {
-  margin: 0 0 0.85rem;
+  margin: 0 0 0.95rem;
   font-family: var(--font-ui);
-  font-size: 1.05rem;
+  font-size: 1.2rem;
   font-weight: 700;
   line-height: 1.15;
   text-transform: uppercase;
@@ -108,22 +108,22 @@
   text-underline-offset: 5px;
   text-decoration-thickness: 2px;
   letter-spacing: 0.02em;
-  -webkit-font-smoothing: none;
+  -webkit-font-smoothing: antialiased;
 }
 
 .hero__window .mac-stamp {
   display: inline-block;
-  margin: 0 0 1rem 0.35rem;
-  padding: 0.28rem 0.55rem;
+  margin: 0 0 1.1rem 0.35rem;
+  padding: 0.32rem 0.65rem;
   border: 3px double var(--ink);
   background: var(--paper);
   font-family: var(--font-ui);
-  font-size: 0.78rem;
+  font-size: 0.88rem;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   transform: rotate(-9deg);
-  -webkit-font-smoothing: none;
+  -webkit-font-smoothing: antialiased;
 }
 
 .hero__window .mac-stamp--dashed {
@@ -147,11 +147,11 @@
 .hero__window .mac-list li {
   position: relative;
   margin: 0;
-  padding: 0.65rem 0 0.65rem 1.15rem;
+  padding: 0.75rem 0 0.75rem 1.25rem;
   border-bottom: 1px solid var(--ink);
-  font-family: var(--font-sans);
-  font-size: 0.95rem;
-  line-height: 1.45;
+  font-family: var(--font-serif);
+  font-size: 1.08rem;
+  line-height: 1.5;
   color: var(--ink);
   -webkit-font-smoothing: antialiased;
 }
@@ -194,7 +194,7 @@
   font-weight: 700;
   letter-spacing: 0.04em;
   text-decoration: none;
-  -webkit-font-smoothing: none;
+  -webkit-font-smoothing: antialiased;
   filter: none;
 }
 
@@ -224,7 +224,7 @@
   font-family: var(--font-ui);
   font-size: 0.8rem;
   font-weight: 700;
-  -webkit-font-smoothing: none;
+  -webkit-font-smoothing: antialiased;
 }
 
 .hero__window .mac-year-field {
@@ -238,7 +238,7 @@
   padding: 0.12rem 0.3rem;
   text-align: center;
   border-radius: 0;
-  -webkit-font-smoothing: none;
+  -webkit-font-smoothing: antialiased;
 }
 
 @media (max-width: 900px) {

@@ -38,23 +38,24 @@
   --hairline: #000000;
   --hairline-strong: #000000;
 
-  --font-display: "Pixelify Sans", "ChiKareGo", Monaco, monospace;
-  --font-serif: "Source Sans 3", "Narnoor", "Geneva", Geneva, "Lucida Grande", sans-serif;
-  --font-sans: "Source Sans 3", "Narnoor", "Geneva", Geneva, "Lucida Grande", sans-serif;
-  --font-ui: "Pixelify Sans", Monaco, monospace;
+  /* PT: document / patriotic dossier — Serif for reading, Sans for chrome */
+  --font-display: "PT Serif", "Times New Roman", Times, serif;
+  --font-serif: "PT Serif", "Times New Roman", Times, serif;
+  --font-sans: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-ui: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-  --space-xs: 0.5rem;
-  --space-sm: 0.75rem;
-  --space-md: 1.25rem;
-  --space-lg: 2rem;
-  --space-xl: 3rem;
-  --space-2xl: 4.5rem;
+  --space-xs: 0.55rem;
+  --space-sm: 0.85rem;
+  --space-md: 1.4rem;
+  --space-lg: 2.35rem;
+  --space-xl: 3.5rem;
+  --space-2xl: 5.25rem;
 
-  --nav-height: 2rem;
+  --nav-height: 2.65rem;
   --radius: 0;
   --radius-sm: 0;
   --radius-pill: 0;
-  --max-width: 1080px;
+  --max-width: 1180px;
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
   --transition: 0.2s ease;
   --pixel: 2px;

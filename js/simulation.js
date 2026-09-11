@@ -80,7 +80,7 @@ async function initSimulationPage() {
               return `
                 <div class="meter">
                   <div class="meter__label"><span>${labels[key]}</span><span>${Math.round(value)}%</span></div>
-                  <div class="meter__track"><div class="meter__fill" style="width:${value}%"></div></div>
+                  <div class="meter__track"><div class="meter__fill" style="transform:scaleX(${value / 100})"></div></div>
                 </div>
               `;
             })

@@ -136,7 +136,7 @@ function mountChrome() {
     <a class="skip-link" href="#main">${I18N.t("nav.skip")}</a>
     <header class="site-header">
       <div class="site-header__inner">
-        <a class="logo" href="index.html">${I18N.t("logo.brand")} <span>${I18N.t("logo.sub")}</span></a>
+        <a class="logo" href="index.html"><span class="logo__brand">${I18N.t("logo.brand")}</span><span class="logo__sub">${I18N.t("logo.sub")}</span></a>
         <nav class="nav" aria-label="${I18N.t("nav.aria")}">
           <div class="nav__links">${links}</div>
           <div class="nav__actions">

@@ -33,11 +33,22 @@
   letter-spacing: -0.01em;
   white-space: nowrap;
   color: var(--text-primary);
+  min-width: 0;
 }
 
-.logo span {
+.logo__brand,
+.logo__sub {
+  white-space: nowrap;
+}
+
+.logo span,
+.logo__sub {
   color: var(--text-muted-light);
   font-weight: 400;
+}
+
+.logo__sub {
+  margin-left: 0.35em;
 }
 
 .nav {

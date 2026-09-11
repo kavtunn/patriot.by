@@ -193,10 +193,10 @@
   }
 
   .logo {
-    font-size: 0.82rem;
-    max-width: 12rem;
-    white-space: normal;
-    line-height: 1.2;
+    font-size: 0.85rem;
+    max-width: none;
+    white-space: nowrap;
+    line-height: 1;
   }
 
   .page-shell,
@@ -408,8 +408,12 @@
   }
 
   .logo {
-    font-size: 0.88rem;
-    max-width: 12rem;
+    font-size: 0.82rem;
+    max-width: none;
+  }
+
+  .logo__sub {
+    display: none;
   }
 
   .lang-switch__btn {
@@ -520,8 +524,8 @@
   }
 
   .logo {
-    font-size: 0.72rem;
-    max-width: 9rem;
+    font-size: 0.78rem;
+    max-width: none;
   }
 
   .nav__actions {

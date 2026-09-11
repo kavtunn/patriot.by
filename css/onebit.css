@@ -41,6 +41,8 @@
   display: inline-flex;
   align-items: center;
   gap: 0.45rem;
+  min-width: 0;
+  flex-shrink: 1;
 }
 
 .logo::before {
@@ -52,9 +54,19 @@
   flex-shrink: 0;
 }
 
-.logo span {
+.logo__brand,
+.logo__sub {
+  white-space: nowrap;
+}
+
+.logo span,
+.logo__sub {
   color: var(--ink);
   font-weight: 400;
+}
+
+.logo__sub {
+  margin-left: 0.35em;
 }
 
 .logo:hover {

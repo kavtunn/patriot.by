@@ -1,0 +1,188 @@
+{
+  "disclaimer": "Всё ниже — гипотеза проекта, а не прогноз и не исторический факт. Сценарий опирается на исторический контекст цены войны для Беларуси и задаёт вопрос: каким могло бы быть накопленное будущее без этого разрыва.",
+  "indicators": [
+    {
+      "id": "population",
+      "label": "Население",
+      "unit": "возможная оценка",
+      "historical": {
+        "value": "Демографический след Великой Отечественной",
+        "note": "ANALYSIS"
+      },
+      "alternative": {
+        "value": "Меньше разрывов семейных линий (гипотеза)",
+        "note": "HYPOTHESIS"
+      },
+      "status": "HYPOTHESIS",
+      "historicalSource": "Archives of Belarus — Aftermath of the War; Exeler (2022); Иоффе / КиберЛенинка; Belstat (2019)",
+      "alternativeSource": "Альтернативный сценарий проекта (гипотеза)"
+    },
+    {
+      "id": "economy",
+      "label": "Экономика",
+      "unit": "возможная оценка",
+      "historical": {
+        "value": "Восстановление и индустриализация после руин",
+        "note": "ANALYSIS"
+      },
+      "alternative": {
+        "value": "Более раннее накопление без послевоенного нуля (гипотеза)",
+        "note": "HYPOTHESIS"
+      },
+      "status": "HYPOTHESIS",
+      "historicalSource": "Archives of Belarus — Aftermath of the War; Exeler (2022); Иоффе / КиберЛенинка; Belstat (2019)",
+      "alternativeSource": "Альтернативный сценарий проекта (гипотеза)"
+    },
+    {
+      "id": "education",
+      "label": "Образование",
+      "unit": "возможная оценка",
+      "historical": {
+        "value": "Сильная школьная и вузовская система после войны",
+        "note": "ANALYSIS"
+      },
+      "alternative": {
+        "value": "Непрерывный рост без оккупационной паузы (гипотеза)",
+        "note": "HYPOTHESIS"
+      },
+      "status": "HYPOTHESIS",
+      "historicalSource": "Archives of Belarus — Aftermath of the War; Exeler (2022); Иоффе / КиберЛенинка; Belstat (2019)",
+      "alternativeSource": "Альтернативный сценарий проекта (гипотеза)"
+    },
+    {
+      "id": "science",
+      "label": "Наука",
+      "unit": "возможная оценка",
+      "historical": {
+        "value": "Научные школы после восстановления",
+        "note": "ANALYSIS"
+      },
+      "alternative": {
+        "value": "Более ранние исследовательские центры (гипотеза)",
+        "note": "HYPOTHESIS"
+      },
+      "status": "HYPOTHESIS",
+      "historicalSource": "Archives of Belarus — Aftermath of the War; Exeler (2022); Иоффе / КиберЛенинка; Belstat (2019)",
+      "alternativeSource": "Альтернативный сценарий проекта (гипотеза)"
+    },
+    {
+      "id": "infra",
+      "label": "Инфраструктура",
+      "unit": "возможная оценка",
+      "historical": {
+        "value": "Отстроенные заново города и дороги",
+        "note": "ANALYSIS"
+      },
+      "alternative": {
+        "value": "Сохранённая и наращенная сеть (гипотеза)",
+        "note": "HYPOTHESIS"
+      },
+      "status": "HYPOTHESIS",
+      "historicalSource": "Archives of Belarus — Aftermath of the War; Exeler (2022); Иоффе / КиберЛенинка; Belstat (2019)",
+      "alternativeSource": "Альтернативный сценарий проекта (гипотеза)"
+    },
+    {
+      "id": "lifespan",
+      "label": "Продолжительность жизни",
+      "unit": "возможная оценка",
+      "historical": {
+        "value": "Рост в мирные десятилетия после потерь",
+        "note": "ANALYSIS"
+      },
+      "alternative": {
+        "value": "Меньше потерь молодых поколений (гипотеза)",
+        "note": "HYPOTHESIS"
+      },
+      "status": "HYPOTHESIS",
+      "historicalSource": "Archives of Belarus — Aftermath of the War; Exeler (2022); Иоффе / КиберЛенинка; Belstat (2019)",
+      "alternativeSource": "Альтернативный сценарий проекта (гипотеза)"
+    },
+    {
+      "id": "urban",
+      "label": "Городское развитие",
+      "unit": "возможная оценка",
+      "historical": {
+        "value": "Новый облик поверх разрушений",
+        "note": "ANALYSIS"
+      },
+      "alternative": {
+        "value": "Непрерывный архитектурный слой (гипотеза)",
+        "note": "HYPOTHESIS"
+      },
+      "status": "HYPOTHESIS",
+      "historicalSource": "Archives of Belarus — Aftermath of the War; Exeler (2022); Иоффе / КиберЛенинка; Belstat (2019)",
+      "alternativeSource": "Альтернативный сценарий проекта (гипотеза)"
+    }
+  ],
+  "future2026": [
+    {
+      "id": "pop",
+      "icon": "",
+      "title": "Население",
+      "text": "Гипотеза: меньше демографических потерь Великой Отечественной — больше непрерывных семейных линий от Бреста до Витебска.",
+      "source": "Альтернативный сценарий проекта (гипотеза)"
+    },
+    {
+      "id": "eco",
+      "icon": "",
+      "title": "Экономика",
+      "text": "Гипотеза: ресурсы, ушедшие на восстановление после 1941–1945, раньше питают производство, мастерские и инновации.",
+      "source": "Альтернативный сценарий проекта (гипотеза)"
+    },
+    {
+      "id": "edu",
+      "icon": "",
+      "title": "Образование",
+      "text": "Гипотеза: школы Минска и Витебска, политех и университеты развиваются без оккупационного разрыва.",
+      "source": "Альтернативный сценарий проекта (гипотеза)"
+    },
+    {
+      "id": "sci",
+      "icon": "",
+      "title": "Наука",
+      "text": "Гипотеза: инженерные, медицинские и гуманитарные школы формируются раньше и плотнее.",
+      "source": "Альтернативный сценарий проекта (гипотеза)"
+    },
+    {
+      "id": "cities",
+      "icon": "",
+      "title": "Городское развитие",
+      "text": "Гипотеза: Минск, Брест, Гродно, Витебск сохраняют больше исторической ткани и памяти мест.",
+      "source": "Альтернативный сценарий проекта (гипотеза)"
+    },
+    {
+      "id": "nature",
+      "icon": "",
+      "title": "Природа",
+      "text": "Гипотеза: меньше разрушений — меньше шрамов на земле. Города и природа сосуществуют мягче.",
+      "source": "Альтернативный сценарий проекта (гипотеза)"
+    }
+  ],
+  "counters": [
+    {
+      "id": "years",
+      "label": "Лет альтернативной ветки",
+      "value": 85,
+      "suffix": ""
+    },
+    {
+      "id": "cities",
+      "label": "Городов в фокусе",
+      "value": 7,
+      "suffix": ""
+    },
+    {
+      "id": "people",
+      "label": "Судеб в повествовании",
+      "value": 2,
+      "suffix": ""
+    },
+    {
+      "id": "choices",
+      "label": "Решений в симуляции",
+      "value": 4,
+      "suffix": ""
+    }
+  ],
+  "source": "Исторический фон: Archives of Belarus — Aftermath; Exeler (2022); Иоффе / КиберЛенинка; Belstat (2019). Альтернатива — гипотеза проекта."
+}

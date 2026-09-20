@@ -1,0 +1,228 @@
+{
+  "legend": [
+    {
+      "id": "FACT",
+      "label": "Факт",
+      "color": "fact",
+      "description": "То, что действительно произошло и подтверждается проверяемыми источниками."
+    },
+    {
+      "id": "ANALYSIS",
+      "label": "Анализ",
+      "color": "analysis",
+      "description": "Историческая интерпретация и осмысление последствий на основе исследований."
+    },
+    {
+      "id": "HYPOTHESIS",
+      "label": "Гипотеза",
+      "color": "hypothesis",
+      "description": "Альтернативный сценарий проекта. Не является историческим фактом и не претендует на прогноз."
+    }
+  ],
+  "about": {
+    "title": "О проекте",
+    "paragraphs": [
+      "«Мир иначе» — интерактивный digital-проект для конкурса ПАТРИОТ.by. Беларусь здесь главный герой: мы смотрим на Великую Отечественную войну как на точку перелома, после которой цена для страны стала огромной.",
+      "Историческая ветка опирается на проверяемые источники: даты начала войны, оккупации, освобождения и оценки потерь. Альтернативная ветка — художественная гипотеза о том, какой могла бы быть непрерывная мирная линия Беларуси.",
+      "Мы не выдумываем «архивные ссылки». Где нет подтверждённого источника, утверждение либо снято, либо явно помечено как анализ или гипотеза."
+    ],
+    "author": {
+      "label": "Автор",
+      "name": "Александр Кавтунов",
+      "email": "sashakavtunov@gmail.com",
+      "phone": "+375336211069"
+    },
+    "stack": {
+      "title": "Стек",
+      "items": [
+        "HTML5, CSS3, JavaScript — без фреймворков и сборщиков",
+        "JSON-данные на двух языках: data/ru/ и data/be/",
+        "localStorage — прогресс симуляции, язык, выбранная ветка и год",
+        "Статический деплой: любой HTTP-сервер или хостинг статики"
+      ]
+    },
+    "architecture": {
+      "title": "Архитектура",
+      "items": [
+        "8 HTML-страниц: главная, история, точка перелома, шкала, люди, будущее, симуляция, источники",
+        "Общая логика — js/app.js; у каждой страницы свой модуль (history.js, timeline.js и др.)",
+        "Контент подгружается через fetch и собирается в DOM на клиенте",
+        "Двуязычность: переключатель РУС/БЕЛ, строки интерфейса в js/i18n.js, контент в data/{lang}/",
+        "Ветки «история / альтернатива» — через AppState и атрибут data-reality на document",
+        "CSS-модули: reset, variables, global, components, pages, animations, responsive"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "src-belarus-by-vov",
+      "title": "Великая Отечественная война в Беларуси",
+      "author": "Официальный сайт Республики Беларусь (belarus.by)",
+      "year": "сводка",
+      "type": "Официальный обзор",
+      "link": "https://www.belarus.by/ru/travel/military-history-tourism/great-patriotic-war-in-belarus",
+      "status": "FACT",
+      "usedFor": "Хронология войны на территории Беларуси (22 июня 1941 — 28 июля 1944), масштаб оккупации и разрушений"
+    },
+    {
+      "id": "src-archives-by",
+      "title": "The history of the war: a survey of events",
+      "author": "Archives of Belarus / Национальный архив Республики Беларусь",
+      "year": "официальный обзор",
+      "type": "Архивный обзор",
+      "link": "https://archives.gov.by/en/welcome-to-the-archives-of-belarus-website/subject-guides-to-archival-records/historical-events/archival-documents-and-materials-3/the-history-of-the-war-a-survey-of-events",
+      "status": "FACT",
+      "usedFor": "Хронология освобождения, операция «Багратион» (июнь–август 1944), обзор событий войны"
+    },
+    {
+      "id": "src-archives-aftermath",
+      "title": "Aftermath of the War",
+      "author": "Archives of Belarus",
+      "year": "официальный обзор",
+      "type": "Архивный обзор / статистика разрушений",
+      "link": "https://archives.gov.by/en/welcome-to-the-archives-of-belarus-website/subject-guides-to-archival-records/historical-events/archival-documents-and-materials-3/the-history-of-the-war-a-survey-of-events/aftermath-of-the-war",
+      "status": "FACT",
+      "usedFor": "Демография и разрушения городов: 209 из 270 городов и райцентров разрушены; оценка людских потерь по данным ЧГК и современные дискуссии"
+    },
+    {
+      "id": "src-britannica-barbarossa",
+      "title": "Operation Barbarossa",
+      "author": "Encyclopaedia Britannica",
+      "year": "справочная статья",
+      "type": "Справочник",
+      "link": "https://www.britannica.com/event/Operation-Barbarossa",
+      "status": "FACT",
+      "usedFor": "Начало германского вторжения в СССР 22 июня 1941 года"
+    },
+    {
+      "id": "src-britannica-bagration",
+      "title": "Operation Bagration",
+      "author": "Encyclopaedia Britannica",
+      "year": "справочная статья",
+      "type": "Справочник",
+      "link": "https://www.britannica.com/event/Operation-Bagration",
+      "status": "FACT",
+      "usedFor": "Операция «Багратион» (лето 1944) и освобождение белорусских земель"
+    },
+    {
+      "id": "src-brest-fortress",
+      "title": "Мемориальный комплекс «Брестская крепость-герой»",
+      "author": "Официальный сайт мемориала",
+      "year": "музейный ресурс",
+      "type": "Музей / мемориал",
+      "link": "https://www.brest-fortress.by/",
+      "status": "FACT",
+      "usedFor": "Оборона Брестской крепости в первые дни Великой Отечественной войны"
+    },
+    {
+      "id": "src-ushmm-minsk",
+      "title": "Minsk",
+      "author": "United States Holocaust Memorial Museum (Holocaust Encyclopedia)",
+      "year": "энциклопедия",
+      "type": "Энциклопедическая статья",
+      "link": "https://encyclopedia.ushmm.org/content/en/article/minsk",
+      "status": "FACT",
+      "usedFor": "Оккупация Минска, гетто, геноцид евреев на территории Беларуси; Малый Тростенец"
+    },
+    {
+      "id": "src-ushmm-bielski",
+      "title": "The Bielski Partisans",
+      "author": "United States Holocaust Memorial Museum (Holocaust Encyclopedia)",
+      "year": "энциклопедия",
+      "type": "Энциклопедическая статья",
+      "link": "https://encyclopedia.ushmm.org/content/en/article/the-bielski-partisans",
+      "status": "FACT",
+      "usedFor": "Еврейское партизанское сопротивление в западной Беларуси (контекст оккупации и сопротивления)"
+    },
+    {
+      "id": "src-exeler-2022",
+      "title": "Ghosts of War: Nazi Occupation and Its Aftermath in Soviet Belarus",
+      "author": "Franziska Exeler",
+      "year": "2022",
+      "type": "Монография (Cornell University Press)",
+      "link": "https://www.cornellpress.cornell.edu/book/9781501762734/ghosts-of-war/",
+      "status": "ANALYSIS",
+      "usedFor": "Оккупация Беларуси, послевоенные последствия, оценки людских потерь (около 19–22% населения по расчётам автора)"
+    },
+    {
+      "id": "src-ioffe-cyberleninka",
+      "title": "О людских потерях Беларуси в годы Великой Отечественной войны",
+      "author": "Э. Г. Иоффе",
+      "year": "научная статья",
+      "type": "Научная статья (КиберЛенинка)",
+      "link": "https://cyberleninka.ru/article/n/o-lyudskih-poteryah-belarusi-v-gody-velikoy-otechestvennoy-voyny",
+      "status": "ANALYSIS",
+      "usedFor": "Дискуссия о демографических потерях БССР; оценки порядка трети довоенного населения в современных границах"
+    },
+    {
+      "id": "src-belstat-demography",
+      "title": "Demographic Yearbook of the Republic of Belarus, 2019",
+      "author": "Национальный статистический комитет Республики Беларусь (Belstat)",
+      "year": "2019",
+      "type": "Статистический сборник",
+      "link": "https://www.belstat.gov.by/en/ofitsialnaya-statistika/publications/statistical-publications-data-books-bulletins/public_compilation/index_14398/",
+      "status": "FACT",
+      "usedFor": "Современная демография и городское развитие Беларуси (фон для раздела «Будущее»)"
+    },
+    {
+      "id": "src-bsu-history",
+      "title": "History of BSU",
+      "author": "Белорусский государственный университет",
+      "year": "официальная история",
+      "type": "Официальный обзор вуза",
+      "link": "https://bsu.by/en/history-of-bsu.php",
+      "status": "FACT",
+      "usedFor": "Образование: основание БГУ (1921), эвакуация и возобновление работы в 1943–1944"
+    },
+    {
+      "id": "src-nasb-history",
+      "title": "Our history / История НАН Беларуси",
+      "author": "Национальная академия наук Беларуси",
+      "year": "официальная история",
+      "type": "Официальный обзор",
+      "link": "https://nasb.gov.by/eng/about/nasha-istoriya/",
+      "status": "FACT",
+      "usedFor": "Наука: перерыв войны 1941–1945, разрушение лабораторий и послевоенное восстановление академических институтов"
+    },
+    {
+      "id": "src-belarus-by-history",
+      "title": "History of Belarus",
+      "author": "Официальный сайт Республики Беларусь (belarus.by)",
+      "year": "сводка",
+      "type": "Официальный обзор",
+      "link": "https://www.belarus.by/en/about-belarus/history",
+      "status": "FACT",
+      "usedFor": "Довоенный и общий исторический контекст Беларуси (урбанизация, государственность)"
+    },
+    {
+      "id": "src-photo-korzh",
+      "title": "Фотография В. З. Коржа",
+      "author": "Главархив Москвы / mos.ru · Wikimedia Commons (CC BY 4.0)",
+      "year": "август 1944",
+      "type": "Фотография",
+      "link": "https://commons.wikimedia.org/wiki/File:Vasily_Korzh.jpg",
+      "status": "FACT",
+      "usedFor": "Страница «Люди»: портрет Василия Коржа (media/korzh.jpg)"
+    },
+    {
+      "id": "src-photo-khoruzhaya",
+      "title": "Vera Kharuzhaya (1903–1942)",
+      "author": "Wikimedia Commons · архивный портрет",
+      "year": "до 1942",
+      "type": "Фотография",
+      "link": "https://commons.wikimedia.org/wiki/File:Vera_Kharuzhaya_(1903_-1942).jpg",
+      "status": "FACT",
+      "usedFor": "Страница «Люди»: портрет Веры Хоружей (media/khoruzhaya.jpg)"
+    },
+    {
+      "id": "src-project-hypothesis",
+      "title": "Альтернативный сценарий проекта «Мир иначе»",
+      "author": "Команда проекта",
+      "year": "2026",
+      "type": "Гипотетическая модель",
+      "link": "",
+      "status": "HYPOTHESIS",
+      "usedFor": "Все альтернативные ветки шкалы времени, симуляция, раздел «Беларусь-2026», художественные судьбы"
+    }
+  ]
+}

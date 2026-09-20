@@ -1,0 +1,228 @@
+{
+  "legend": [
+    {
+      "id": "FACT",
+      "label": "Факт",
+      "color": "fact",
+      "description": "Тое, што сапраўды адбылося і пацвярджаецца правяральнымі крыніцамі."
+    },
+    {
+      "id": "ANALYSIS",
+      "label": "Аналіз",
+      "color": "analysis",
+      "description": "Гістарычная інтэрпрэтацыя і асэнсаванне наступстваў на аснове даследаванняў."
+    },
+    {
+      "id": "HYPOTHESIS",
+      "label": "Гіпотэза",
+      "color": "hypothesis",
+      "description": "Альтэрнатыўны сцэнарый праекта. Не з’яўляецца гістарычным фактам і не прэтэндуе на прагноз."
+    }
+  ],
+  "about": {
+    "title": "Пра праект",
+    "paragraphs": [
+      "«Свет інакш» — інтэрактыўны digital-праект для конкурсу ПАТРИОТ.by. Беларусь тут галоўны герой: мы глядзім на Вялікую Айчынную вайну як на пункт пералому, пасля якога цана для краіны стала велізарнай.",
+      "Гістарычная галіна абапіраецца на правяральныя крыніцы: даты пачатку вайны, акупацыі, вызвалення і ацэнкі стратаў. Альтэрнатыўная галіна — мастацкая гіпотэза пра тое, якой магла б быць бесперапынная мірная лінія Беларусі.",
+      "Мы не выдумляем «архіўныя спасылкі». Дзе няма пацверджанай крыніцы, сцвярджэнне альбо знята, альбо відавочна пазначана як аналіз ці гіпотэза."
+    ],
+    "author": {
+      "label": "Аўтар",
+      "name": "Аляксандр Каўтонаў",
+      "email": "sashakavtunov@gmail.com",
+      "phone": "+375336211069"
+    },
+    "stack": {
+      "title": "Стэк",
+      "items": [
+        "HTML5, CSS3, JavaScript — без фрэймворкаў і зборшчыкаў",
+        "JSON-даныя на двух мовах: data/ru/ і data/be/",
+        "localStorage — прагрэс сімуляцыі, мова, абраная галіна і год",
+        "Статычны дэploy: любой HTTP-сервер або хостинг статыкі"
+      ]
+    },
+    "architecture": {
+      "title": "Архітэктура",
+      "items": [
+        "8 HTML-старонак: галоўная, гісторыя, пункт пералому, шкала, людзі, будучыня, сімуляцыя, крыніцы",
+        "Агульная логіка — js/app.js; у кожнай старонкі свой модуль (history.js, timeline.js і інш.)",
+        "Кантэнт падгружаецца праз fetch і збіраецца ў DOM на кліенце",
+        "Двухмоўнасць: пераключальнік РУС/БЕЛ, радкі інтэрфейсу ў js/i18n.js, кантэнт у data/{lang}/",
+        "Галіны «гісторыя / альтэрнатыва» — праз AppState і атрыбут data-reality на document",
+        "CSS-модулі: reset, variables, global, components, pages, animations, responsive"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "src-belarus-by-vov",
+      "title": "Вялікая Айчынная вайна ў Беларусі",
+      "author": "Афіцыйны сайт Рэспублікі Беларусь (belarus.by)",
+      "year": "зводка",
+      "type": "Афіцыйны агляд",
+      "link": "https://www.belarus.by/ru/travel/military-history-tourism/great-patriotic-war-in-belarus",
+      "status": "FACT",
+      "usedFor": "Храналогія вайны на тэрыторыі Беларусі (22 чэрвеня 1941 — 28 ліпеня 1944), маштаб акупацыі і разбурэнняў"
+    },
+    {
+      "id": "src-archives-by",
+      "title": "The history of the war: a survey of events",
+      "author": "Archives of Belarus / Нацыянальны архіў Рэспублікі Беларусь",
+      "year": "афіцыйны агляд",
+      "type": "Архіўны агляд",
+      "link": "https://archives.gov.by/en/welcome-to-the-archives-of-belarus-website/subject-guides-to-archival-records/historical-events/archival-documents-and-materials-3/the-history-of-the-war-a-survey-of-events",
+      "status": "FACT",
+      "usedFor": "Храналогія вызвалення, аперацыя «Баграціён» (чэрвень–жнівень 1944), агляд падзей вайны"
+    },
+    {
+      "id": "src-archives-aftermath",
+      "title": "Aftermath of the War",
+      "author": "Archives of Belarus",
+      "year": "афіцыйны агляд",
+      "type": "Архіўны агляд / статыстыка разбурэнняў",
+      "link": "https://archives.gov.by/en/welcome-to-the-archives-of-belarus-website/subject-guides-to-archival-records/historical-events/archival-documents-and-materials-3/the-history-of-the-war-a-survey-of-events/aftermath-of-the-war",
+      "status": "FACT",
+      "usedFor": "Дэмаграфія і разбурэнні гарадоў: 209 з 270 гарадоў і райцэнтраў разбураны; ацэнка людскіх стратаў па даных ДНДК і сучасныя дыскусіі"
+    },
+    {
+      "id": "src-britannica-barbarossa",
+      "title": "Operation Barbarossa",
+      "author": "Encyclopaedia Britannica",
+      "year": "даведачны артыкул",
+      "type": "Даведнік",
+      "link": "https://www.britannica.com/event/Operation-Barbarossa",
+      "status": "FACT",
+      "usedFor": "Пачатак нямецкага ўварвання ў СССР 22 чэрвеня 1941 года"
+    },
+    {
+      "id": "src-britannica-bagration",
+      "title": "Operation Bagration",
+      "author": "Encyclopaedia Britannica",
+      "year": "даведачны артыкул",
+      "type": "Даведнік",
+      "link": "https://www.britannica.com/event/Operation-Bagration",
+      "status": "FACT",
+      "usedFor": "Аперацыя «Баграціён» (лета 1944) і вызваленне беларускіх зямель"
+    },
+    {
+      "id": "src-brest-fortress",
+      "title": "Мемарыяльны комплекс «Брэсцкая крэпасць-герой»",
+      "author": "Афіцыйны сайт мемарыяла",
+      "year": "музейны рэсурс",
+      "type": "Музей / мемарыял",
+      "link": "https://www.brest-fortress.by/",
+      "status": "FACT",
+      "usedFor": "Абарона Брэсцкай крэпасці ў першыя дні Вялікай Айчыннай вайны"
+    },
+    {
+      "id": "src-ushmm-minsk",
+      "title": "Minsk",
+      "author": "United States Holocaust Memorial Museum (Holocaust Encyclopedia)",
+      "year": "энцыклапедыя",
+      "type": "Энцыклапедычны артыкул",
+      "link": "https://encyclopedia.ushmm.org/content/en/article/minsk",
+      "status": "FACT",
+      "usedFor": "Акупацыя Мінска, гета, генацыд яўрэяў на тэрыторыі Беларусі; Малы Трасцянец"
+    },
+    {
+      "id": "src-ushmm-bielski",
+      "title": "The Bielski Partisans",
+      "author": "United States Holocaust Memorial Museum (Holocaust Encyclopedia)",
+      "year": "энцыклапедыя",
+      "type": "Энцыклапедычны артыкул",
+      "link": "https://encyclopedia.ushmm.org/content/en/article/the-bielski-partisans",
+      "status": "FACT",
+      "usedFor": "Яўрэйскае партызанскае супраціўленне ў заходняй Беларусі (кантэкст акупацыі і супраціву)"
+    },
+    {
+      "id": "src-exeler-2022",
+      "title": "Ghosts of War: Nazi Occupation and Its Aftermath in Soviet Belarus",
+      "author": "Franziska Exeler",
+      "year": "2022",
+      "type": "Манаграфія (Cornell University Press)",
+      "link": "https://www.cornellpress.cornell.edu/book/9781501762734/ghosts-of-war/",
+      "status": "ANALYSIS",
+      "usedFor": "Акупацыя Беларусі, пасляваенныя наступствы, ацэнкі людскіх стратаў (каля 19–22% насельніцтва па разліках аўтара)"
+    },
+    {
+      "id": "src-ioffe-cyberleninka",
+      "title": "Пра людскія страты Беларусі ў гады Вялікай Айчыннай вайны",
+      "author": "Э. Г. Іофе",
+      "year": "навуковы артыкул",
+      "type": "Навуковы артыкул (КіберЛенінка)",
+      "link": "https://cyberleninka.ru/article/n/o-lyudskih-poteryah-belarusi-v-gody-velikoy-otechestvennoy-voyny",
+      "status": "ANALYSIS",
+      "usedFor": "Дыскусія пра дэмаграфічныя страты БССР; ацэнкі парадку трэці даваеннага насельніцтва ў сучасных межах"
+    },
+    {
+      "id": "src-belstat-demography",
+      "title": "Demographic Yearbook of the Republic of Belarus, 2019",
+      "author": "Нацыянальны статыстычны камітэт Рэспублікі Беларусь (Belstat)",
+      "year": "2019",
+      "type": "Статыстычны зборнік",
+      "link": "https://www.belstat.gov.by/en/ofitsialnaya-statistika/publications/statistical-publications-data-books-bulletins/public_compilation/index_14398/",
+      "status": "FACT",
+      "usedFor": "Сучасная дэмаграфія і гарадское развіццё Беларусі (фон для раздзела «Будучыня»)"
+    },
+    {
+      "id": "src-bsu-history",
+      "title": "History of BSU",
+      "author": "Беларускі дзяржаўны ўніверсітэт",
+      "year": "афіцыйная гісторыя",
+      "type": "Афіцыйны агляд ВНУ",
+      "link": "https://bsu.by/en/history-of-bsu.php",
+      "status": "FACT",
+      "usedFor": "Адукацыя: заснаванне БДУ (1921), эвакуацыя і аднаўленне працы ў 1943–1944"
+    },
+    {
+      "id": "src-nasb-history",
+      "title": "Our history / Гісторыя НАН Беларусі",
+      "author": "Нацыянальная акадэмія навук Беларусі",
+      "year": "афіцыйная гісторыя",
+      "type": "Афіцыйны агляд",
+      "link": "https://nasb.gov.by/eng/about/nasha-istoriya/",
+      "status": "FACT",
+      "usedFor": "Навука: перапынак вайны 1941–1945, разбурэнне лабараторый і пасляваеннае аднаўленне акадэмічных інстытутаў"
+    },
+    {
+      "id": "src-belarus-by-history",
+      "title": "History of Belarus",
+      "author": "Афіцыйны сайт Рэспублікі Беларусь (belarus.by)",
+      "year": "зводка",
+      "type": "Афіцыйны агляд",
+      "link": "https://www.belarus.by/en/about-belarus/history",
+      "status": "FACT",
+      "usedFor": "Даваенны і агульны гістарычны кантэкст Беларусі (урбанізацыя, дзяржаўнасць)"
+    },
+    {
+      "id": "src-photo-korzh",
+      "title": "Фотография В. З. Коржа",
+      "author": "Галоўархіў Масквы / mos.ru · Wikimedia Commons (CC BY 4.0)",
+      "year": "жнівень 1944",
+      "type": "Фатаграфія",
+      "link": "https://commons.wikimedia.org/wiki/File:Vasily_Korzh.jpg",
+      "status": "FACT",
+      "usedFor": "Старонка «Людзі»: партрэт Васіля Коржа (media/korzh.jpg)"
+    },
+    {
+      "id": "src-photo-khoruzhaya",
+      "title": "Vera Kharuzhaya (1903–1942)",
+      "author": "Wikimedia Commons · архіўны партрэт",
+      "year": "да 1942",
+      "type": "Фатаграфія",
+      "link": "https://commons.wikimedia.org/wiki/File:Vera_Kharuzhaya_(1903_-1942).jpg",
+      "status": "FACT",
+      "usedFor": "Старонка «Людзі»: партрэт Веры Харужай (media/khoruzhaya.jpg)"
+    },
+    {
+      "id": "src-project-hypothesis",
+      "title": "Альтэрнатыўны сцэнарый праекта «Свет інакш»",
+      "author": "Каманда праекта",
+      "year": "2026",
+      "type": "Гіпатэтычная мадэль",
+      "link": "",
+      "status": "HYPOTHESIS",
+      "usedFor": "Усе альтэрнатыўныя галіны шкалы часу, сімуляцыя, раздзел «Беларусь-2026», мастацкія лёсы"
+    }
+  ]
+}

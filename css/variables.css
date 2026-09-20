@@ -1,0 +1,62 @@
+:root {
+  --ink: #000000;
+  --paper: #ffffff;
+  --dither-25: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4'%3E%3Crect width='4' height='4' fill='%23fff'/%3E%3Crect width='1' height='1' fill='%23000'/%3E%3C/svg%3E");
+  --dither-50: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2' height='2'%3E%3Crect width='2' height='2' fill='%23fff'/%3E%3Crect width='1' height='1' fill='%23000'/%3E%3Crect x='1' y='1' width='1' height='1' fill='%23000'/%3E%3C/svg%3E");
+  --dither-75: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4'%3E%3Crect width='4' height='4' fill='%23000'/%3E%3Crect width='1' height='1' fill='%23fff'/%3E%3C/svg%3E");
+  --archive-bg: url("../media/bg/archive-folder.jpg");
+  --archive-fallback: #c4bfb4;
+
+  --bg-darker: #000000;
+  --bg-dark: #ffffff;
+  --bg-light: #ffffff;
+  --surface: #ffffff;
+  --surface-dark: #ffffff;
+  --surface-elevated: #ffffff;
+
+  --text-primary: #000000;
+  --text-dark: #000000;
+  --text-muted: #000000;
+  --text-muted-light: #000000;
+  --text-body: #000000;
+
+  --history: #000000;
+  --history-soft: transparent;
+  --alternative: #000000;
+  --alternative-soft: transparent;
+
+  --accent: #000000;
+  --accent-soft: transparent;
+  --accent-strong: #000000;
+
+  --fact: #000000;
+  --analysis: #000000;
+  --hypothesis: #000000;
+
+  --hairline: #000000;
+  --hairline-strong: #000000;
+
+  /* PT: document / patriotic dossier — Serif for reading, Sans for chrome */
+  --font-display: "PT Serif", "Times New Roman", Times, serif;
+  --font-serif: "PT Serif", "Times New Roman", Times, serif;
+  --font-sans: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-ui: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  --space-xs: 0.55rem;
+  --space-sm: 0.85rem;
+  --space-md: 1.4rem;
+  --space-lg: 2.35rem;
+  --space-xl: 3.5rem;
+  --space-2xl: 5.25rem;
+
+  --nav-height: 2.65rem;
+  --radius: 0;
+  --radius-sm: 0;
+  --radius-pill: 0;
+  --max-width: 1180px;
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --transition: 0.2s ease;
+  --pixel: 2px;
+
+  --grain-opacity: 0;
+}

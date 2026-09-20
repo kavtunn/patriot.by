@@ -1,0 +1,244 @@
+{
+  "years": [
+    1930,
+    1939,
+    1941,
+    1944,
+    1945,
+    1950,
+    1960,
+    1980,
+    2000,
+    2026
+  ],
+  "pivotYear": 1941,
+  "events": [
+    {
+      "id": "by-1930",
+      "year": 1930,
+      "reality": "shared",
+      "status": "FACT",
+      "title": "Беларусь перед большой войной",
+      "place": "Минск, Витебск, Гомель",
+      "description": "В Беларуси растут города, школы, заводы. Люди строят обычную жизнь — ещё не зная, какая катастрофа приближается.",
+      "source": "belarus.by — History of Belarus; History of BSU (bsu.by)"
+    },
+    {
+      "id": "by-1939",
+      "year": 1939,
+      "reality": "shared",
+      "status": "FACT",
+      "title": "Европа уже в огне",
+      "place": "Европа / Беларусь",
+      "description": "1 сентября 1939 года начинается Вторая мировая война в Европе. Напряжение растёт. Для Беларуси катастрофа Великой Отечественной ещё впереди — но европейский пожар уже открыт.",
+      "source": "Хронология Второй мировой войны: начало 1 сентября 1939 (Britannica / стандартная историография)"
+    },
+    {
+      "id": "by-1941-h",
+      "year": 1941,
+      "reality": "historical",
+      "status": "FACT",
+      "title": "Точка перелома: Великая Отечественная",
+      "place": "Беларусь",
+      "description": "22 июня 1941 года начинается Великая Отечественная война. Беларусь с первых дней оказывается в зоне фронта и оккупации. Это точка перелома, от которой в проекте расходятся две ветки.",
+      "source": "Britannica, Operation Barbarossa; belarus.by — Великая Отечественная война в Беларуси"
+    },
+    {
+      "id": "by-1941-a",
+      "year": 1941,
+      "reality": "alternative",
+      "status": "HYPOTHESIS",
+      "title": "Страна без оккупационного разрыва",
+      "place": "Беларусь",
+      "description": "Гипотеза проекта: удар 1941 года не превращается в многолетнюю оккупационную катастрофу для Беларуси. Непрерывность мирной жизни сохраняется — это сценарий размышления, не факт.",
+      "source": "Альтернативный сценарий проекта (гипотеза)"
+    },
+    {
+      "id": "by-1944-h",
+      "year": 1944,
+      "reality": "historical",
+      "status": "FACT",
+      "title": "Освобождение среди руин",
+      "place": "Минск и вся Беларусь",
+      "description": "Летом 1944 года операция «Багратион» приводит к освобождению белорусских земель. Победа приходит среди руин: разрушенные города, сожжённые деревни, огромные человеческие потери.",
+      "source": "Britannica, Operation Bagration; Archives of Belarus — survey of events"
+    },
+    {
+      "id": "by-1944-a",
+      "year": 1944,
+      "reality": "alternative",
+      "status": "HYPOTHESIS",
+      "title": "Без оккупационного разрыва",
+      "place": "Беларусь",
+      "description": "Гипотеза проекта: катастрофу удаётся предотвратить до разрушения Беларуси. Города, школы и семьи сохраняют непрерывность — это не исторический факт.",
+      "source": "Альтернативный сценарий проекта (гипотеза)"
+    },
+    {
+      "id": "by-1945-h",
+      "year": 1945,
+      "reality": "historical",
+      "status": "FACT",
+      "title": "Победа и цена победы",
+      "place": "Беларусь",
+      "description": "Война заканчивается. Для Беларуси это не только победа — это память о колоссальных потерях и начале долгого восстановления.",
+      "source": "Archives of Belarus — Aftermath of the War; Exeler, Ghosts of War (2022)"
+    },
+    {
+      "id": "by-1945-a",
+      "year": 1945,
+      "reality": "alternative",
+      "status": "HYPOTHESIS",
+      "title": "Мир без белорусских руин",
+      "place": "Беларусь",
+      "description": "Гипотеза проекта. Ресурсы и силы идут не на поднятие городов из пепла, а на развитие образования, промышленности и культуры.",
+      "source": "Альтернативный сценарий проекта (гипотеза)"
+    },
+    {
+      "id": "by-1950-h",
+      "year": 1950,
+      "reality": "historical",
+      "status": "FACT",
+      "title": "Восстановление из руин",
+      "place": "Беларусь",
+      "description": "Послевоенное восстановление: заводы, дома, школы поднимаются из разрушений. Цена войны ощущается в каждом городе.",
+      "source": "Archives of Belarus — Aftermath of the War; Exeler, Ghosts of War (2022)"
+    },
+    {
+      "id": "by-1950-a",
+      "year": 1950,
+      "reality": "alternative",
+      "status": "HYPOTHESIS",
+      "title": "Непрерывный рост",
+      "place": "Беларусь",
+      "description": "Гипотеза: развитие без послевоенного нуля — накопленный мирный капитал.",
+      "source": "Альтернативный сценарий проекта (гипотеза)"
+    },
+    {
+      "id": "by-1960-h",
+      "year": 1960,
+      "reality": "historical",
+      "status": "ANALYSIS",
+      "title": "Индустриальная республика",
+      "place": "Беларусь",
+      "description": "Новый индустриальный облик после восстановления. Университеты и институты растут поверх памяти о войне.",
+      "source": "Exeler (2022); History of BSU; НАН Беларуси — Our history"
+    },
+    {
+      "id": "by-1960-a",
+      "year": 1960,
+      "reality": "alternative",
+      "status": "HYPOTHESIS",
+      "title": "Плотный образовательный слой",
+      "place": "Беларусь",
+      "description": "Гипотеза: более ранняя и плотная образовательная и научная сеть без оккупационной паузы.",
+      "source": "Альтернативный сценарий проекта (гипотеза)"
+    },
+    {
+      "id": "by-1980-h",
+      "year": 1980,
+      "reality": "historical",
+      "status": "ANALYSIS",
+      "title": "Зрелая индустриальная республика",
+      "place": "Беларусь",
+      "description": "Крупная промышленность, города, память о войне как часть общественной ткани.",
+      "source": "Exeler (2022); контекст послевоенной индустриализации БССР"
+    },
+    {
+      "id": "by-1980-a",
+      "year": 1980,
+      "reality": "alternative",
+      "status": "HYPOTHESIS",
+      "title": "Мирное накопление",
+      "place": "Беларусь",
+      "description": "Гипотеза: иной баланс памяти, науки и городской ткани без фронтового разрыва.",
+      "source": "Альтернативный сценарий проекта (гипотеза)"
+    },
+    {
+      "id": "by-2000-h",
+      "year": 2000,
+      "reality": "historical",
+      "status": "ANALYSIS",
+      "title": "Беларусь на рубеже тысячелетий",
+      "place": "Беларусь",
+      "description": "Независимость, демография и города наследуются от послевоенной траектории.",
+      "source": "belarus.by — History of Belarus; Belstat Demographic Yearbook (2019)"
+    },
+    {
+      "id": "by-2000-a",
+      "year": 2000,
+      "reality": "alternative",
+      "status": "HYPOTHESIS",
+      "title": "Иной накопленный путь",
+      "place": "Беларусь",
+      "description": "Гипотеза: страна с другим демографическим и культурным наследием непрерывного мира.",
+      "source": "Альтернативный сценарий проекта (гипотеза)"
+    },
+    {
+      "id": "by-2026-h",
+      "year": 2026,
+      "reality": "historical",
+      "status": "ANALYSIS",
+      "title": "Беларусь сегодня",
+      "place": "Беларусь",
+      "description": "Современная Беларусь несёт память о цене Великой Отечественной.",
+      "source": "Современный контекст; Belstat Demographic Yearbook (2019)"
+    },
+    {
+      "id": "by-2026-a",
+      "year": 2026,
+      "reality": "alternative",
+      "status": "HYPOTHESIS",
+      "title": "Мир иначе",
+      "place": "Беларусь",
+      "description": "Гипотеза проекта о том, какой могла бы быть страна без разрушительной цены 1941–1945.",
+      "source": "Альтернативный сценарий проекта (гипотеза)"
+    }
+  ],
+  "comparisons": [
+    {
+      "year": 1945,
+      "historical": "Победа и начало восстановления из руин.",
+      "alternative": "Гипотеза: ресурсы идут на развитие, а не на подъём из пепла.",
+      "historicalNote": "FACT",
+      "alternativeNote": "HYPOTHESIS",
+      "historicalSource": "Britannica (Barbarossa / Bagration); Archives of Belarus; Exeler (2022); USHMM — Minsk",
+      "alternativeSource": "Альтернативный сценарий проекта (гипотеза)"
+    },
+    {
+      "year": 1960,
+      "historical": "Индустриализация после восстановления.",
+      "alternative": "Гипотеза: более ранний образовательный и научный рост.",
+      "historicalNote": "ANALYSIS",
+      "alternativeNote": "HYPOTHESIS",
+      "historicalSource": "Britannica (Barbarossa / Bagration); Archives of Belarus; Exeler (2022); USHMM — Minsk",
+      "alternativeSource": "Альтернативный сценарий проекта (гипотеза)"
+    },
+    {
+      "year": 1980,
+      "historical": "Зрелая индустриальная республика с памятью о войне.",
+      "alternative": "Гипотеза: иной баланс наследия и развития.",
+      "historicalNote": "ANALYSIS",
+      "alternativeNote": "HYPOTHESIS",
+      "historicalSource": "Britannica (Barbarossa / Bagration); Archives of Belarus; Exeler (2022); USHMM — Minsk",
+      "alternativeSource": "Альтернативный сценарий проекта (гипотеза)"
+    },
+    {
+      "year": 2000,
+      "historical": "Беларусь входит в новый век.",
+      "alternative": "Гипотетический запас капитала.",
+      "historicalNote": "ANALYSIS",
+      "alternativeNote": "HYPOTHESIS",
+      "historicalSource": "Britannica (Barbarossa / Bagration); Archives of Belarus; Exeler (2022); USHMM — Minsk",
+      "alternativeSource": "Альтернативный сценарий проекта (гипотеза)"
+    },
+    {
+      "year": 2026,
+      "historical": "Современная Беларусь с памятью о цене войны.",
+      "alternative": "Гипотеза: страна без разрушительной цены 1941–1945.",
+      "historicalNote": "ANALYSIS",
+      "alternativeNote": "HYPOTHESIS",
+      "historicalSource": "Britannica (Barbarossa / Bagration); Archives of Belarus; Exeler (2022); USHMM — Minsk",
+      "alternativeSource": "Альтернативный сценарий проекта (гипотеза)"
+    }
+  ]
+}

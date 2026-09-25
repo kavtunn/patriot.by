@@ -1,4 +1,4 @@
-/* Hero window — match archive Mac document 1:1 */
+
 
 .hero {
   position: relative;
@@ -12,7 +12,7 @@
   padding: clamp(1.25rem, 4vw, 2.75rem);
   box-sizing: border-box;
   overflow: auto;
-  /* Transparent so body archive photo shows through */
+
   background: transparent;
 }
 
@@ -39,7 +39,6 @@
   box-shadow: 6px 6px 0 var(--ink);
 }
 
-/* Title bar: dense horizontal stripes + centered title pill */
 .hero__window .mac-window__titlebar {
   display: grid;
   grid-template-columns: 1.1rem 1fr 1.1rem;
@@ -171,7 +170,6 @@
   transform: translateY(-50%);
 }
 
-/* Start button on the divider, below the lists */
 .hero__cta,
 .hero__window .mac-window__cta {
   position: absolute;
@@ -275,7 +273,7 @@
     text-align: center;
   }
 
-  /* Must beat .hero__window .mac-window__cta { position: absolute } */
+
   .hero__cta,
   .hero__window .mac-window__cta {
     position: static;

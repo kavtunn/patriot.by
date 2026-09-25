@@ -1,6 +1,6 @@
 html {
   color-scheme: light;
-  font-size: 112.5%; /* 18px root — whole rem scale reads larger */
+  font-size: 112.5%;
 }
 
 body {
@@ -20,7 +20,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Readable Cyrillic everywhere — no hard-pixel smoothing */
 .font-ui,
 .logo,
 .nav__link,
@@ -144,7 +143,6 @@ a {
   text-underline-offset: 3px;
 }
 
-/* Inline links: no full-bar invert (it fought .site-footer a and hid text) */
 a:hover {
   background: transparent;
   color: var(--ink);

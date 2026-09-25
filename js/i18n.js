@@ -1,15 +1,3 @@
-/**
- * Language switcher: be | ru
- *
- * In HTML write both variants:
- *   <span data-lang="be">Па-беларуску</span>
- *   <span data-lang="ru">По-русски</span>
- *
- * Or on one element:
- *   <a data-i18n-be="Пачаць" data-i18n-ru="Начать">Пачаць</a>
- *
- * Document title is always the project name (Мир иначе / Свет інакш), not the page name.
- */
 const LANG_KEY = "patriotLang";
 const SUPPORTED = ["be", "ru"];
 const DEFAULT_LANG = "ru";
@@ -181,7 +169,6 @@ function applyLangAttrs(root = document) {
     }
   });
 
-  // Tab title is always the project name (language only), never the page name.
   document.title = SITE_TITLE[lang] || SITE_TITLE.ru;
   root.querySelectorAll("title").forEach((el) => {
     el.textContent = document.title;
@@ -218,7 +205,6 @@ function initI18n() {
   try {
     localStorage.removeItem("siteLang");
   } catch (e) {
-    /* ignore */
   }
   const lang = getLang();
   document.documentElement.lang = lang;

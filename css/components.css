@@ -1,4 +1,4 @@
-/* ——— Navigation ——— */
+
 .site-header {
   position: fixed;
   top: 0;
@@ -83,7 +83,6 @@
   gap: 0.75rem;
 }
 
-/* Language switcher */
 .lang-switch {
   display: inline-flex;
   align-items: center;
@@ -118,14 +117,11 @@
   background: var(--accent);
 }
 
-/* Dual-language fragments in HTML:
-   <span data-lang="be">…</span><span data-lang="ru">…</span> */
 html[lang="be"] [data-lang="ru"],
 html[lang="ru"] [data-lang="be"] {
   display: none !important;
 }
 
-/* SVG <tspan> language swap */
 html[lang="be"] tspan[data-lang="ru"],
 html[lang="ru"] tspan[data-lang="be"] {
   display: none;
@@ -195,7 +191,6 @@ html[lang="ru"] tspan[data-lang="be"] {
   color: var(--text-primary);
 }
 
-/* ——— Buttons ——— */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -278,7 +273,6 @@ html[lang="ru"] tspan[data-lang="be"] {
   border-color: var(--hairline-strong);
 }
 
-/* ——— Tags ——— */
 .tag {
   display: inline-flex;
   align-items: center;
@@ -300,7 +294,6 @@ html[lang="ru"] tspan[data-lang="be"] {
 .tag--history { color: var(--history); }
 .tag--alternative { color: var(--alternative); }
 
-/* ——— Reality switch ——— */
 .reality-switch {
   display: inline-flex;
   border: 1px solid var(--hairline-strong);
@@ -333,7 +326,6 @@ html[lang="ru"] tspan[data-lang="be"] {
   color: #fff;
 }
 
-/* ——— Year ——— */
 .year-pill {
   display: inline-flex;
   align-items: baseline;
@@ -352,7 +344,6 @@ html[lang="ru"] tspan[data-lang="be"] {
   color: var(--text-muted);
 }
 
-/* ——— Panels (borderless-first) ——— */
 .panel {
   background: var(--surface-dark);
   border: 1px solid var(--hairline);
@@ -389,7 +380,6 @@ html[lang="ru"] tspan[data-lang="be"] {
   color: #4a463f;
 }
 
-/* ——— Modal ——— */
 .modal {
   position: fixed;
   inset: 0;
@@ -435,7 +425,6 @@ html[lang="ru"] tspan[data-lang="be"] {
   color: var(--text-primary);
 }
 
-/* ——— Meters ——— */
 .meter {
   margin-bottom: 1rem;
 }
@@ -470,7 +459,6 @@ html[lang="ru"] tspan[data-lang="be"] {
 .meter__fill--history { background: var(--history); }
 .meter__fill--alternative { background: var(--alternative); }
 
-/* ——— Timeline motif ——— */
 .time-line {
   position: relative;
 }
@@ -495,7 +483,6 @@ html[lang="ru"] tspan[data-lang="be"] {
   );
 }
 
-/* ——— Disclaimer ——— */
 .disclaimer {
   border: 1px solid var(--hairline);
   border-left: 1px solid var(--ink);
@@ -512,7 +499,6 @@ html[lang="ru"] tspan[data-lang="be"] {
   color: #4a463f;
 }
 
-/* ——— Footer ——— */
 .site-footer {
   border-top: 2px solid var(--ink);
   padding: 1.75rem 0;
@@ -535,7 +521,6 @@ html[lang="ru"] tspan[data-lang="be"] {
   text-decoration: none;
 }
 
-/* ——— Choices ——— */
 .choice {
   display: block;
   width: 100%;
@@ -577,7 +562,6 @@ html[lang="ru"] tspan[data-lang="be"] {
   line-height: 1.55;
 }
 
-/* ——— Compare ——— */
 .compare {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -623,7 +607,6 @@ html[lang="ru"] tspan[data-lang="be"] {
   color: var(--text-body);
 }
 
-/* ——— Slider ——— */
 .year-slider {
   width: 100%;
   accent-color: var(--accent);
@@ -664,7 +647,6 @@ html[lang="ru"] tspan[data-lang="be"] {
 .year-slider-labels span.is-start { transform: translateX(0); }
 .year-slider-labels span.is-end { transform: translateX(-100%); }
 
-/* ——— Source citations ——— */
 .source-cite {
   margin-top: 0.85rem;
   font-family: var(--font-sans);

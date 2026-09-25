@@ -1,11 +1,10 @@
-/* Hero styles live in css/hero.css */
+
 
 .hero__title,
 .hero__actions {
   margin: 0;
 }
 
-/* ——— Intro timeline on index ——— */
 .intro-timeline {
   padding-block: var(--space-lg) var(--space-2xl);
   position: relative;
@@ -101,7 +100,6 @@
   margin-bottom: 0.5rem;
 }
 
-/* One-bit meta strip — not a metric dashboard */
 .pivot-stats {
   display: flex;
   flex-direction: column;
@@ -172,7 +170,6 @@
   color: var(--text-muted-light);
 }
 
-/* ——— Page hero (inner) ——— */
 .page-hero {
   padding: 0;
   max-width: 40rem;
@@ -211,7 +208,6 @@
   color: var(--ink);
 }
 
-/* Titles that sit outside panels must still read on the archive photo */
 .page-shell .container > .display,
 .page-shell .container > h2.display {
   display: table;
@@ -275,7 +271,6 @@
   margin-bottom: 1rem;
 }
 
-/* ——— History chain ——— */
 .chain {
   display: grid;
   gap: 0;
@@ -455,7 +450,6 @@
   }
 }
 
-/* ——— Turning point ——— */
 .turning {
   min-height: calc(100dvh - var(--nav-height));
   display: block;
@@ -701,7 +695,6 @@
   }
 }
 
-/* ——— Interactive timeline page ——— */
 .timeline-page {
   padding-bottom: var(--space-xl);
 }
@@ -846,7 +839,6 @@
   display: block;
 }
 
-/* ——— People ——— */
 .people-page {
   padding-bottom: var(--space-xl);
 }
@@ -961,7 +953,6 @@
   line-height: 1.5;
 }
 
-/* ——— Future ——— */
 .future-page {
   padding-bottom: var(--space-xl);
 }
@@ -1101,7 +1092,6 @@
   color: var(--ink);
 }
 
-/* ——— Simulation ——— */
 .sim-page {
   padding-bottom: var(--space-xl);
 }
@@ -1133,7 +1123,6 @@
   display: block;
 }
 
-/* ——— Sources ——— */
 .sources-page {
   padding-bottom: var(--space-xl);
 }
@@ -1203,7 +1192,6 @@
   color: var(--text-body);
 }
 
-/* ——— Final ——— */
 .finale {
   min-height: auto;
   display: grid;
@@ -1271,7 +1259,6 @@
   display: grid;
 }
 
-/* ——— Chapter progress ——— */
 .journey-progress {
   display: none;
 }
@@ -1280,8 +1267,6 @@
   display: none;
 }
 
-
-/* ——— Shared page utilities ——— */
 .sim-toolbar {
   display: flex;
   justify-content: flex-end;
@@ -1471,7 +1456,6 @@
   text-underline-offset: 0.2em;
 }
 
-/* Final legibility overrides (pages.css loads after onebit) */
 .panel,
 .stat-block {
   background: var(--paper);

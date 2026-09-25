@@ -1,4 +1,4 @@
-/* One-bit desktop system — chrome, controls, tags, windows */
+
 
 .site-header {
   position: fixed;
@@ -293,7 +293,6 @@
   text-align: inherit;
 }
 
-/* Citations sitting outside panels must not float on the archive photo */
 .page-shell .container > .source-cite,
 .page-shell .container > .disclaimer + .source-cite {
   margin-top: 1rem;
@@ -412,7 +411,6 @@
   top: 0.5rem;
 }
 
-/* Desktop window primitives (non-hero panels) */
 .panel.mac-window,
 .card.mac-window {
   background: var(--paper);
@@ -584,7 +582,6 @@
   box-shadow: 3px 3px 0 var(--ink);
 }
 
-/* Override legacy dark disclaimer (black-on-black after one-bit tokens) */
 .disclaimer,
 .page-light .disclaimer {
   border: 2px solid var(--ink);
@@ -599,7 +596,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* ——— Sitewide legibility: paper surfaces, ink text, no black-on-black ——— */
 .muted,
 .lead,
 .body-text,

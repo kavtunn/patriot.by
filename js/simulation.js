@@ -23,7 +23,6 @@ async function initSimulationPage() {
       choicesMade = parsed.choicesMade || [];
       scores = parsed.scores || scores;
     } catch (e) {
-      /* ignore broken storage */
     }
   }
 

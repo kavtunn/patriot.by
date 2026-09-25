@@ -154,7 +154,6 @@ async function initFuturePage() {
   renderTabs();
   renderSkyline();
 
-  /* reveal newly injected nodes */
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {

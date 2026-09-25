@@ -66,8 +66,8 @@
     },
     {
       "id": "src-archives-by",
-      "title": "The history of the war: a survey of events",
-      "author": "Archives of Belarus / Нацыянальны архіў Рэспублікі Беларусь",
+      "title": "Гісторыя вайны: агляд падзей",
+      "author": "Архівы Беларусі / Нацыянальны архіў Рэспублікі Беларусь",
       "year": "афіцыйны агляд",
       "type": "Архіўны агляд",
       "link": "https://archives.gov.by/en/welcome-to-the-archives-of-belarus-website/subject-guides-to-archival-records/historical-events/archival-documents-and-materials-3/the-history-of-the-war-a-survey-of-events",
@@ -76,8 +76,8 @@
     },
     {
       "id": "src-archives-aftermath",
-      "title": "Aftermath of the War",
-      "author": "Archives of Belarus",
+      "title": "Наступствы вайны",
+      "author": "Архівы Беларусі",
       "year": "афіцыйны агляд",
       "type": "Архіўны агляд / статыстыка разбурэнняў",
       "link": "https://archives.gov.by/en/welcome-to-the-archives-of-belarus-website/subject-guides-to-archival-records/historical-events/archival-documents-and-materials-3/the-history-of-the-war-a-survey-of-events/aftermath-of-the-war",
@@ -86,8 +86,8 @@
     },
     {
       "id": "src-britannica-barbarossa",
-      "title": "Operation Barbarossa",
-      "author": "Encyclopaedia Britannica",
+      "title": "Аперацыя «Барбароса»",
+      "author": "Энцыклапедыя Britannica",
       "year": "даведачны артыкул",
       "type": "Даведнік",
       "link": "https://www.britannica.com/event/Operation-Barbarossa",
@@ -96,8 +96,8 @@
     },
     {
       "id": "src-britannica-bagration",
-      "title": "Operation Bagration",
-      "author": "Encyclopaedia Britannica",
+      "title": "Аперацыя «Баграціён»",
+      "author": "Энцыклапедыя Britannica",
       "year": "даведачны артыкул",
       "type": "Даведнік",
       "link": "https://www.britannica.com/event/Operation-Bagration",
@@ -116,8 +116,8 @@
     },
     {
       "id": "src-ushmm-minsk",
-      "title": "Minsk",
-      "author": "United States Holocaust Memorial Museum (Holocaust Encyclopedia)",
+      "title": "Мінск",
+      "author": "Мемарыяльны музей Халакосту ЗША (Энцыклапедыя Халакосту)",
       "year": "энцыклапедыя",
       "type": "Энцыклапедычны артыкул",
       "link": "https://encyclopedia.ushmm.org/content/en/article/minsk",
@@ -126,8 +126,8 @@
     },
     {
       "id": "src-ushmm-bielski",
-      "title": "The Bielski Partisans",
-      "author": "United States Holocaust Memorial Museum (Holocaust Encyclopedia)",
+      "title": "Партызаны Бельскіх",
+      "author": "Мемарыяльны музей Халакосту ЗША (Энцыклапедыя Халакосту)",
       "year": "энцыклапедыя",
       "type": "Энцыклапедычны артыкул",
       "link": "https://encyclopedia.ushmm.org/content/en/article/the-bielski-partisans",
@@ -136,8 +136,8 @@
     },
     {
       "id": "src-exeler-2022",
-      "title": "Ghosts of War: Nazi Occupation and Its Aftermath in Soviet Belarus",
-      "author": "Franziska Exeler",
+      "title": "Прывіды вайны: нацысцкая акупацыя і яе наступствы ў савецкай Беларусі",
+      "author": "Францішка Экселер",
       "year": "2022",
       "type": "Манаграфія (Cornell University Press)",
       "link": "https://www.cornellpress.cornell.edu/book/9781501762734/ghosts-of-war/",
@@ -156,7 +156,7 @@
     },
     {
       "id": "src-belstat-demography",
-      "title": "Demographic Yearbook of the Republic of Belarus, 2019",
+      "title": "Дэмаграфічны штогоднік Рэспублікі Беларусь, 2019",
       "author": "Нацыянальны статыстычны камітэт Рэспублікі Беларусь (Belstat)",
       "year": "2019",
       "type": "Статыстычны зборнік",
@@ -166,7 +166,7 @@
     },
     {
       "id": "src-bsu-history",
-      "title": "History of BSU",
+      "title": "Гісторыя БДУ",
       "author": "Беларускі дзяржаўны ўніверсітэт",
       "year": "афіцыйная гісторыя",
       "type": "Афіцыйны агляд ВНУ",
@@ -176,7 +176,7 @@
     },
     {
       "id": "src-nasb-history",
-      "title": "Our history / Гісторыя НАН Беларусі",
+      "title": "Наша гісторыя / Гісторыя НАН Беларусі",
       "author": "Нацыянальная акадэмія навук Беларусі",
       "year": "афіцыйная гісторыя",
       "type": "Афіцыйны агляд",
@@ -186,7 +186,7 @@
     },
     {
       "id": "src-belarus-by-history",
-      "title": "History of Belarus",
+      "title": "Гісторыя Беларусі",
       "author": "Афіцыйны сайт Рэспублікі Беларусь (belarus.by)",
       "year": "зводка",
       "type": "Афіцыйны агляд",
@@ -196,7 +196,7 @@
     },
     {
       "id": "src-photo-korzh",
-      "title": "Фотография В. З. Коржа",
+      "title": "Фатаграфія В. З. Коржа",
       "author": "Галоўархіў Масквы / mos.ru · Wikimedia Commons (CC BY 4.0)",
       "year": "жнівень 1944",
       "type": "Фатаграфія",
@@ -206,7 +206,7 @@
     },
     {
       "id": "src-photo-khoruzhaya",
-      "title": "Vera Kharuzhaya (1903–1942)",
+      "title": "Вера Харужая (1903–1942)",
       "author": "Wikimedia Commons · архіўны партрэт",
       "year": "да 1942",
       "type": "Фатаграфія",

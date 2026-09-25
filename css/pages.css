@@ -819,8 +819,15 @@
   margin-bottom: 0.75rem;
 }
 
-.fork-diagram {
+.timeline-note {
   margin: 2rem 0;
+  padding: 1.25rem 1.5rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.fork-diagram {
+  margin: 0;
   font-family: var(--font-display);
   text-align: center;
   color: var(--text-muted);

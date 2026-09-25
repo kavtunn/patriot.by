@@ -92,7 +92,7 @@ async function initPeoplePage() {
           <h2 class="panel__title">${I18N.t("people.histTitle")}</h2>
           <div style="margin-bottom:0.75rem;">${App.statusTag("FACT")}</div>
           ${lifeEvents(person.historical)}
-          ${App.sourceCite(data.historicalSource || "Exeler (2022); Archives of Belarus; belarus.by")}
+          ${App.sourceCite(data.historicalSource || "Экселер (2022); Архивы Беларуси; belarus.by")}
         </section>
         <section class="life-path life-path--alternative" aria-label="${I18N.t("people.altAria")}">
           <p class="compare__label" style="color:var(--alternative);">${I18N.t("people.altLabel")}</p>

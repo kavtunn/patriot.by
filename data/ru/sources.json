@@ -66,8 +66,8 @@
     },
     {
       "id": "src-archives-by",
-      "title": "The history of the war: a survey of events",
-      "author": "Archives of Belarus / Национальный архив Республики Беларусь",
+      "title": "История войны: обзор событий",
+      "author": "Архивы Беларуси / Национальный архив Республики Беларусь",
       "year": "официальный обзор",
       "type": "Архивный обзор",
       "link": "https://archives.gov.by/en/welcome-to-the-archives-of-belarus-website/subject-guides-to-archival-records/historical-events/archival-documents-and-materials-3/the-history-of-the-war-a-survey-of-events",
@@ -76,8 +76,8 @@
     },
     {
       "id": "src-archives-aftermath",
-      "title": "Aftermath of the War",
-      "author": "Archives of Belarus",
+      "title": "Последствия войны",
+      "author": "Архивы Беларуси",
       "year": "официальный обзор",
       "type": "Архивный обзор / статистика разрушений",
       "link": "https://archives.gov.by/en/welcome-to-the-archives-of-belarus-website/subject-guides-to-archival-records/historical-events/archival-documents-and-materials-3/the-history-of-the-war-a-survey-of-events/aftermath-of-the-war",
@@ -86,8 +86,8 @@
     },
     {
       "id": "src-britannica-barbarossa",
-      "title": "Operation Barbarossa",
-      "author": "Encyclopaedia Britannica",
+      "title": "Операция «Барбаросса»",
+      "author": "Энциклопедия Britannica",
       "year": "справочная статья",
       "type": "Справочник",
       "link": "https://www.britannica.com/event/Operation-Barbarossa",
@@ -96,8 +96,8 @@
     },
     {
       "id": "src-britannica-bagration",
-      "title": "Operation Bagration",
-      "author": "Encyclopaedia Britannica",
+      "title": "Операция «Багратион»",
+      "author": "Энциклопедия Britannica",
       "year": "справочная статья",
       "type": "Справочник",
       "link": "https://www.britannica.com/event/Operation-Bagration",
@@ -116,8 +116,8 @@
     },
     {
       "id": "src-ushmm-minsk",
-      "title": "Minsk",
-      "author": "United States Holocaust Memorial Museum (Holocaust Encyclopedia)",
+      "title": "Минск",
+      "author": "Мемориальный музей Холокоста США (Энциклопедия Холокоста)",
       "year": "энциклопедия",
       "type": "Энциклопедическая статья",
       "link": "https://encyclopedia.ushmm.org/content/en/article/minsk",
@@ -126,8 +126,8 @@
     },
     {
       "id": "src-ushmm-bielski",
-      "title": "The Bielski Partisans",
-      "author": "United States Holocaust Memorial Museum (Holocaust Encyclopedia)",
+      "title": "Партизаны Бельских",
+      "author": "Мемориальный музей Холокоста США (Энциклопедия Холокоста)",
       "year": "энциклопедия",
       "type": "Энциклопедическая статья",
       "link": "https://encyclopedia.ushmm.org/content/en/article/the-bielski-partisans",
@@ -136,8 +136,8 @@
     },
     {
       "id": "src-exeler-2022",
-      "title": "Ghosts of War: Nazi Occupation and Its Aftermath in Soviet Belarus",
-      "author": "Franziska Exeler",
+      "title": "Призраки войны: нацистская оккупация и её последствия в советской Беларуси",
+      "author": "Франциска Экселер",
       "year": "2022",
       "type": "Монография (Cornell University Press)",
       "link": "https://www.cornellpress.cornell.edu/book/9781501762734/ghosts-of-war/",
@@ -156,7 +156,7 @@
     },
     {
       "id": "src-belstat-demography",
-      "title": "Demographic Yearbook of the Republic of Belarus, 2019",
+      "title": "Демографический ежегодник Республики Беларусь, 2019",
       "author": "Национальный статистический комитет Республики Беларусь (Belstat)",
       "year": "2019",
       "type": "Статистический сборник",
@@ -166,7 +166,7 @@
     },
     {
       "id": "src-bsu-history",
-      "title": "History of BSU",
+      "title": "История БГУ",
       "author": "Белорусский государственный университет",
       "year": "официальная история",
       "type": "Официальный обзор вуза",
@@ -176,7 +176,7 @@
     },
     {
       "id": "src-nasb-history",
-      "title": "Our history / История НАН Беларуси",
+      "title": "Наша история / История НАН Беларуси",
       "author": "Национальная академия наук Беларуси",
       "year": "официальная история",
       "type": "Официальный обзор",
@@ -186,7 +186,7 @@
     },
     {
       "id": "src-belarus-by-history",
-      "title": "History of Belarus",
+      "title": "История Беларуси",
       "author": "Официальный сайт Республики Беларусь (belarus.by)",
       "year": "сводка",
       "type": "Официальный обзор",
@@ -206,7 +206,7 @@
     },
     {
       "id": "src-photo-khoruzhaya",
-      "title": "Vera Kharuzhaya (1903–1942)",
+      "title": "Вера Хоружая (1903–1942)",
       "author": "Wikimedia Commons · архивный портрет",
       "year": "до 1942",
       "type": "Фотография",
